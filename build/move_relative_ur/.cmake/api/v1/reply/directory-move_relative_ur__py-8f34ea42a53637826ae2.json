@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "move_relative_ur__py",
+		"source" : "/home/tsi/ws_moveit2/build/move_relative_ur/move_relative_ur__py"
+	}
+}

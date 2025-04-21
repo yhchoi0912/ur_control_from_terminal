@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robot_move/action/Coordinate_Feedback",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robot_move/action/Coordinate_Feedback",
+      "hash_string": "RIHS01_8262e878a01ff9327c0908fe17c1b5a0a52da7d85e3e1ca96510ab60b91ae147"
+    }
+  ]
+}

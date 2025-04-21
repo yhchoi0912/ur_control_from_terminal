@@ -1,0 +1,643 @@
+[0.000000] (-) TimerEvent: {}
+[0.000769] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000868] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001022] (-) JobUnselected: {'identifier': 'robot_move'}
+[0.001126] (-) JobUnselected: {'identifier': 'ur_action_move'}
+[0.001173] (move_relative_ur) JobQueued: {'identifier': 'move_relative_ur', 'dependencies': OrderedDict()}
+[0.001208] (move_relative_ur) JobStarted: {'identifier': 'move_relative_ur'}
+[0.034743] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'cmake'}
+[0.035581] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'build'}
+[0.036535] (move_relative_ur) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tsi/ws_moveit2/build/move_relative_ur', '--', '-j12', '-l12'], 'cwd': '/home/tsi/ws_moveit2/build/move_relative_ur', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2516-1-picksys_TIME758350', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tsi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib:/home/tsi/ws_moveit2/src/install/robot_move/lib:/home/tsi/workspace/install/ur_dashboard_msgs/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner/lib:/home/tsi/workspace/install/moveit_ros_control_interface/lib:/home/tsi/workspace/install/moveit_simple_controller_manager/lib:/home/tsi/workspace/install/moveit_setup_assistant/lib:/home/tsi/workspace/install/moveit_setup_srdf_plugins/lib:/home/tsi/workspace/install/moveit_setup_core_plugins/lib:/home/tsi/workspace/install/moveit_setup_controllers/lib:/home/tsi/workspace/install/moveit_setup_app_plugins/lib:/home/tsi/workspace/install/moveit_setup_framework/lib:/home/tsi/workspace/install/moveit_servo/lib:/home/tsi/workspace/install/moveit_ros_trajectory_cache/lib:/home/tsi/workspace/install/moveit_ros_visualization/lib:/home/tsi/workspace/install/moveit_py/lib:/home/tsi/workspace/install/moveit_hybrid_planning/lib:/home/tsi/workspace/install/moveit_ros_planning_interface/lib:/home/tsi/workspace/install/moveit_ros_benchmarks/lib:/home/tsi/workspace/install/moveit_ros_warehouse/lib:/home/tsi/workspace/install/moveit_ros_robot_interaction/lib:/home/tsi/workspace/install/moveit_ros_perception/lib:/home/tsi/workspace/install/moveit_ros_move_group/lib:/home/tsi/workspace/install/moveit_planners_ompl/lib:/home/tsi/workspace/install/moveit_kinematics/lib:/home/tsi/workspace/install/moveit_ros_planning/lib:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor/lib:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/tsi/workspace/install/moveit_planners_stomp/lib:/home/tsi/workspace/install/moveit_planners_chomp/lib:/home/tsi/workspace/install/chomp_motion_planner/lib:/home/tsi/workspace/install/moveit_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tsi', 'OLDPWD': '/home/tsi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2226', 'SYSTEMD_EXEC_PID': '2516', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tsi/ws_moveit2/install:/home/tsi/ws_moveit2/src/install:/home/tsi/workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tsi', 'JOURNAL_STREAM': '9:26633', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tsi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/tsi/workspace/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/picksys:@/tmp/.ICE-unix/2485,unix/picksys:/tmp/.ICE-unix/2485', 'INVOCATION_ID': '7ea9ce7ad354484cb1a0c17e89d39643', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L3B822', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_configs_utils:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:127c774d-3ed8-4e3b-beb7-21c8ce9337bc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tsi/ws_moveit2/build/move_relative_ur', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages:/home/tsi/ws_moveit2/src/install/robot_move/lib/python3.12/site-packages:/home/tsi/workspace/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_py/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[0.099812] (-) TimerEvent: {}
+[0.200321] (-) TimerEvent: {}
+[0.207899] (move_relative_ur) StdoutLine: {'line': b'[  2%] Built target move_relative_ur__rosidl_generator_type_description\n'}
+[0.211199] (move_relative_ur) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_move_relative_ur\n'}
+[0.245975] (move_relative_ur) StdoutLine: {'line': b'[  5%] Built target move_relative_ur__cpp\n'}
+[0.251676] (move_relative_ur) StdoutLine: {'line': b'[ 18%] Built target move_relative_ur__rosidl_generator_c\n'}
+[0.295021] (move_relative_ur) StdoutLine: {'line': b'[ 26%] Built target move_relative_ur__rosidl_typesupport_c\n'}
+[0.298051] (move_relative_ur) StdoutLine: {'line': b'[ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_c\n'}
+[0.300386] (-) TimerEvent: {}
+[0.302113] (move_relative_ur) StdoutLine: {'line': b'[ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp\n'}
+[0.302393] (move_relative_ur) StdoutLine: {'line': b'[ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp\n'}
+[0.304438] (move_relative_ur) StdoutLine: {'line': b'[ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c\n'}
+[0.305871] (move_relative_ur) StdoutLine: {'line': b'[ 65%] Built target move_relative_ur__rosidl_typesupport_cpp\n'}
+[0.361381] (move_relative_ur) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o\x1b[0m\n'}
+[0.362279] (move_relative_ur) StdoutLine: {'line': b'[ 68%] Built target move_relative_ur\n'}
+[0.386950] (move_relative_ur) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o\x1b[0m\n'}
+[0.400654] (-) TimerEvent: {}
+[0.425453] (move_relative_ur) StdoutLine: {'line': b'[ 73%] Built target move_relative_ur__py\n'}
+[0.502118] (move_relative_ur) StdoutLine: {'line': b'[ 78%] Built target move_relative_ur__rosidl_generator_py\n'}
+[0.502355] (-) TimerEvent: {}
+[0.562195] (move_relative_ur) StdoutLine: {'line': b'[ 84%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c\n'}
+[0.562699] (move_relative_ur) StdoutLine: {'line': b'[ 89%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c\n'}
+[0.566245] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target move_relative_ur_s__rosidl_typesupport_c\n'}
+[0.602491] (-) TimerEvent: {}
+[0.702887] (-) TimerEvent: {}
+[0.757353] (move_relative_ur) StdoutLine: {'line': b'running egg_info\n'}
+[0.803046] (-) TimerEvent: {}
+[0.812158] (move_relative_ur) StdoutLine: {'line': b'writing move_relative_ur.egg-info/PKG-INFO\n'}
+[0.812812] (move_relative_ur) StdoutLine: {'line': b'writing dependency_links to move_relative_ur.egg-info/dependency_links.txt\n'}
+[0.813196] (move_relative_ur) StdoutLine: {'line': b'writing top-level names to move_relative_ur.egg-info/top_level.txt\n'}
+[0.903126] (-) TimerEvent: {}
+[0.963882] (move_relative_ur) StdoutLine: {'line': b"reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[0.964870] (move_relative_ur) StdoutLine: {'line': b"writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[1.003269] (-) TimerEvent: {}
+[1.023931] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_move_relative_ur_egg\n'}
+[1.103381] (-) TimerEvent: {}
+[1.203747] (-) TimerEvent: {}
+[1.304298] (-) TimerEvent: {}
+[1.404743] (-) TimerEvent: {}
+[1.505106] (-) TimerEvent: {}
+[1.605526] (-) TimerEvent: {}
+[1.705996] (-) TimerEvent: {}
+[1.806492] (-) TimerEvent: {}
+[1.906813] (-) TimerEvent: {}
+[2.007151] (-) TimerEvent: {}
+[2.107619] (-) TimerEvent: {}
+[2.208096] (-) TimerEvent: {}
+[2.308574] (-) TimerEvent: {}
+[2.408867] (-) TimerEvent: {}
+[2.509193] (-) TimerEvent: {}
+[2.609582] (-) TimerEvent: {}
+[2.709915] (-) TimerEvent: {}
+[2.810230] (-) TimerEvent: {}
+[2.910540] (-) TimerEvent: {}
+[3.011114] (-) TimerEvent: {}
+[3.111544] (-) TimerEvent: {}
+[3.212181] (-) TimerEvent: {}
+[3.312717] (-) TimerEvent: {}
+[3.414916] (-) TimerEvent: {}
+[3.515468] (-) TimerEvent: {}
+[3.615941] (-) TimerEvent: {}
+[3.716355] (-) TimerEvent: {}
+[3.790142] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid URScriptRelativeMove::\x1b[01;32m\x1b[KsendRobotStatusRequest\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.790718] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:48:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_status_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.791097] (move_relative_ur) StderrLine: {'line': b'   48 |         while (!\x1b[01;31m\x1b[Krobot_status_client_\x1b[m\x1b[K->wait_for_service(std::chrono::seconds(1))) {\n'}
+[3.791458] (move_relative_ur) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.802465] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:53:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_status_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.802984] (move_relative_ur) StderrLine: {'line': b'   53 |         auto future_result = \x1b[01;31m\x1b[Krobot_status_client_\x1b[m\x1b[K->async_send_request(request,\n'}
+[3.803364] (move_relative_ur) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.806947] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid URScriptRelativeMove::\x1b[01;32m\x1b[KrobotProgramState\x1b[m\x1b[K(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.809975] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.811236] (move_relative_ur) StderrLine: {'line': b'   60 |         if(\x1b[32m\x1b[Kresponse\x1b[m\x1b[K \x1b[01;31m\x1b[K==\x1b[m\x1b[K \x1b[34m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.813183] (move_relative_ur) StderrLine: {'line': b'      |            \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[3.814867] (move_relative_ur) StderrLine: {'line': b'      |            \x1b[32m\x1b[K|\x1b[m\x1b[K           \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[3.814998] (move_relative_ur) StderrLine: {'line': b'      |            \x1b[32m\x1b[K|\x1b[m\x1b[K           \x1b[34m\x1b[Kconst char [7]\x1b[m\x1b[K\n'}
+[3.815197] (move_relative_ur) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\n'}
+[3.815325] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:65\x1b[m\x1b[K,\n'}
+[3.815431] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[3.815538] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:1\x1b[m\x1b[K:\n'}
+[3.815652] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/allocator.h:237:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const allocator<_Tp1>&, const allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.815760] (move_relative_ur) StderrLine: {'line': b'  237 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[3.815867] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.815972] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/allocator.h:237:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.816224] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.816344] (-) TimerEvent: {}
+[3.816458] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.816588] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.816696] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_tempbuf.h:62\x1b[m\x1b[K,\n'}
+[3.816803] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:66\x1b[m\x1b[K:\n'}
+[3.816906] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:812:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const pair<_T1, _T2>&, const pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817015] (move_relative_ur) StderrLine: {'line': b'  812 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[3.817304] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.817426] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:812:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.817764] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.817879] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.817998] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.818134] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.818253] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_uninitialized.h:63\x1b[m\x1b[K,\n'}
+[3.818363] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:69\x1b[m\x1b[K:\n'}
+[3.818474] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.818585] (move_relative_ur) StderrLine: {'line': b'  448 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[3.818689] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.818796] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.818906] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.819017] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.819153] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.819261] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.819372] (move_relative_ur) StderrLine: {'line': b'  493 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[3.819480] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.819588] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.819713] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.819832] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.819940] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.820050] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.820182] (move_relative_ur) StderrLine: {'line': b' 1678 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[3.820290] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.820400] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.820519] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.820632] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.820739] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.820846] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.820960] (move_relative_ur) StderrLine: {'line': b' 1748 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[3.821083] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.821206] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.821333] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.821443] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.821546] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.821648] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[3.821755] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:78\x1b[m\x1b[K:\n'}
+[3.821874] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.821997] (move_relative_ur) StderrLine: {'line': b' 1919 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[3.822128] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.822241] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.822349] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_UTypes ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.822461] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.822564] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.822670] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:829:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.822770] (move_relative_ur) StderrLine: {'line': b'  829 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[3.822875] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.822976] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:829:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.823114] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.823238] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.823346] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.823432] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unique_ptr<_Tp, _Dp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.823533] (move_relative_ur) StderrLine: {'line': b'  837 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[3.823638] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.823744] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.823850] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.823966] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.824104] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.824231] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:845:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.824335] (move_relative_ur) StderrLine: {'line': b'  845 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[3.824437] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.824537] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:845:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.824638] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.824746] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.824855] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.824951] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/iosfwd:42\x1b[m\x1b[K,\n'}
+[3.825047] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[3.825174] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K:\n'}
+[3.825276] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/postypes.h:192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const fpos<_StateT>&, const fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.825382] (move_relative_ur) StderrLine: {'line': b'  192 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[3.825605] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.825718] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/postypes.h:192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.825825] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.825935] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.826041] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.826192] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K:\n'}
+[3.826301] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.826409] (move_relative_ur) StderrLine: {'line': b' 1793 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[3.826527] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.826630] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.826730] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp2, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.826838] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.826942] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.827044] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __shared_ptr<_Tp, _Lp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.827177] (move_relative_ur) StderrLine: {'line': b' 1799 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[3.827281] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.827386] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.827487] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"PAUSED"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.827591] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.827695] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.827794] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const __shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.827910] (move_relative_ur) StderrLine: {'line': b' 1819 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[3.828017] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.828137] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.828251] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.828349] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.828440] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.828535] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.828645] (move_relative_ur) StderrLine: {'line': b'  555 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[3.828740] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.828842] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.828945] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.829046] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.829179] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.829282] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:561:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const shared_ptr<_Tp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.829520] (move_relative_ur) StderrLine: {'line': b'  561 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[3.829629] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.829732] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:561:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.829834] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"PAUSED"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.829942] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.830041] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.830226] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:582:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.830339] (move_relative_ur) StderrLine: {'line': b'  582 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[3.830443] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.830546] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:582:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.830651] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.830759] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.830873] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.830979] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:47\x1b[m\x1b[K,\n'}
+[3.831091] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:54\x1b[m\x1b[K,\n'}
+[3.831204] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18\x1b[m\x1b[K,\n'}
+[3.831310] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[3.831415] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.831523] (move_relative_ur) StderrLine: {'line': b'  609 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[3.831776] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.831881] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.831986] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.833111] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.833223] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.833327] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:616:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.835358] (move_relative_ur) StderrLine: {'line': b'  616 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[3.835482] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.835586] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:616:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.835693] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.835803] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.835908] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.836012] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:642:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.837810] (move_relative_ur) StderrLine: {'line': b'  642 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[3.837930] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.838033] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:642:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.838154] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.838275] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.838382] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.838487] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3710:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.838596] (move_relative_ur) StderrLine: {'line': b' 3710 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[3.838706] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.838817] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3710:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.838925] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.839038] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.839386] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.839499] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3727:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.839611] (move_relative_ur) StderrLine: {'line': b' 3727 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[3.839720] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.839823] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3727:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.839931] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.840214] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.840341] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.840450] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3774:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.840562] (move_relative_ur) StderrLine: {'line': b' 3774 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[3.840668] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.840778] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3774:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.840888] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.840993] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.842861] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.842972] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:66\x1b[m\x1b[K,\n'}
+[3.843083] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19\x1b[m\x1b[K:\n'}
+[3.843199] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:2040:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.843305] (move_relative_ur) StderrLine: {'line': b' 2040 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[3.843409] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.843510] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:2040:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.843628] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.843749] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.843855] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.843957] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:12\x1b[m\x1b[K,\n'}
+[3.844392] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.844518] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[3.844623] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/array:297:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.844730] (move_relative_ur) StderrLine: {'line': b'  297 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[3.844835] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.844937] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/array:297:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.845041] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.845412] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.845510] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.845614] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[3.845719] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[3.845825] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:46\x1b[m\x1b[K,\n'}
+[3.845928] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/istream:40\x1b[m\x1b[K,\n'}
+[3.846037] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/sstream:40\x1b[m\x1b[K,\n'}
+[3.846230] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:13\x1b[m\x1b[K,\n'}
+[3.846337] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9\x1b[m\x1b[K:\n'}
+[3.846441] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const istreambuf_iterator<_CharT, _Traits>&, const istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.846559] (move_relative_ur) StderrLine: {'line': b'  234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[3.846660] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.846756] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.846854] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.846959] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.847093] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.847209] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/functional:59\x1b[m\x1b[K,\n'}
+[3.847313] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19\x1b[m\x1b[K,\n'}
+[3.847418] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[3.847521] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K:\n'}
+[3.847624] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:737:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const function<_Res(_ArgTypes ...)>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.847731] (move_relative_ur) StderrLine: {'line': b'  737 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[3.847841] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.847945] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:737:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.848049] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.848379] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.848483] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.848589] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:744:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.848697] (move_relative_ur) StderrLine: {'line': b'  744 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[3.848801] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.848905] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:744:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.849009] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.851661] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.851768] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.851873] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/unordered_map:41\x1b[m\x1b[K,\n'}
+[3.851987] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/functional:63\x1b[m\x1b[K:\n'}
+[3.853774] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.853892] (move_relative_ur) StderrLine: {'line': b' 2143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[3.854816] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.854931] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.855037] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.855154] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.855267] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.855371] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.855679] (move_relative_ur) StderrLine: {'line': b' 2157 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[3.855785] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.857072] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.857187] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.857294] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.857396] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.859605] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/unordered_set:41\x1b[m\x1b[K,\n'}
+[3.859728] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[3.859835] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[3.859946] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.860076] (move_relative_ur) StderrLine: {'line': b' 1813 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[3.860188] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.860294] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.860399] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.860507] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.860607] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.860706] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1827:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.860807] (move_relative_ur) StderrLine: {'line': b' 1827 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[3.860910] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.861014] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1827:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.861192] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.861313] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.861416] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.861523] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/set:63\x1b[m\x1b[K,\n'}
+[3.861761] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[3.861867] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.861968] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[3.862233] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_set.h:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.862371] (move_relative_ur) StderrLine: {'line': b'  987 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[3.862473] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.862568] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_set.h:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.862670] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.862778] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.862881] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.862984] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/set:64\x1b[m\x1b[K:\n'}
+[3.863262] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multiset.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.863386] (move_relative_ur) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[3.863494] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.863601] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multiset.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.863703] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.863820] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.863925] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.864024] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/list:65\x1b[m\x1b[K,\n'}
+[3.864148] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[3.864250] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K:\n'}
+[3.864356] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_list.h:2123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.864463] (move_relative_ur) StderrLine: {'line': b' 2123 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[3.864576] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.864676] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_list.h:2123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.864780] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.864898] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.865005] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.865178] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/map:63\x1b[m\x1b[K,\n'}
+[3.865286] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K:\n'}
+[3.865393] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_map.h:1513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.865647] (move_relative_ur) StderrLine: {'line': b' 1513 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[3.865749] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.865854] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_map.h:1513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.865958] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866083] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.866199] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.866303] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/map:64\x1b[m\x1b[K:\n'}
+[3.866413] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866515] (move_relative_ur) StderrLine: {'line': b' 1134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[3.866615] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.866737] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.866844] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.866957] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.867057] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.867197] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[3.867298] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.867400] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.867503] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.867607] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.867703] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[3.867820] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K:\n'}
+[3.867922] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1236:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, const optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868028] (move_relative_ur) StderrLine: {'line': b' 1236 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[3.868268] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.868374] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1236:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.868482] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868589] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.868694] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.868795] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1296:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.868901] (move_relative_ur) StderrLine: {'line': b' 1296 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[3.869005] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.869136] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1296:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.869255] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869366] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.869469] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.869572] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullopt_t, const optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.869735] (move_relative_ur) StderrLine: {'line': b' 1307 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[3.869839] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.869943] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.870050] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870185] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.870295] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.870396] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1364:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870512] (move_relative_ur) StderrLine: {'line': b' 1364 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[3.870617] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.870722] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1364:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.870823] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.870929] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.871033] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.871245] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1370:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const _Up&, const optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.871353] (move_relative_ur) StderrLine: {'line': b' 1370 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[3.871463] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.871573] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1370:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.871683] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.871791] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.871893] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.871997] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:29\x1b[m\x1b[K:\n'}
+[3.872241] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1266:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const variant<_Types ...>&, const variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.872358] (move_relative_ur) StderrLine: {'line': b' 1266 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[3.872465] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.872572] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1266:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.872677] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.872807] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.872939] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.873076] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/deque:66\x1b[m\x1b[K,\n'}
+[3.873214] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:18\x1b[m\x1b[K,\n'}
+[3.873344] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39\x1b[m\x1b[K:\n'}
+[3.873516] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_deque.h:2290:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873612] (move_relative_ur) StderrLine: {'line': b' 2290 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)\n'}
+[3.873701] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.873784] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_deque.h:2290:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.873871] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::deque<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.873968] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.874055] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.874157] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/queue:66\x1b[m\x1b[K,\n'}
+[3.874255] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:18\x1b[m\x1b[K,\n'}
+[3.874344] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:27\x1b[m\x1b[K,\n'}
+[3.874429] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:24\x1b[m\x1b[K:\n'}
+[3.874514] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_queue.h:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.874602] (move_relative_ur) StderrLine: {'line': b'  380 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)\n'}
+[3.874687] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.874771] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_queue.h:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.874856] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::queue<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.874944] (move_relative_ur) StderrLine: {'line': b'   60 |         if(response == \x1b[01;36m\x1b[K"PAUSED"\x1b[m\x1b[K)\n'}
+[3.875032] (move_relative_ur) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.875242] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[3.875331] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K:\n'}
+[3.875416] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:449:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_code&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.875510] (move_relative_ur) StderrLine: {'line': b'  449 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[3.875595] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.875681] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:449:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.875778] (move_relative_ur) StderrLine: {'line': b'  449 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[3.875862] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.875947] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:465:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_code&, const error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876034] (move_relative_ur) StderrLine: {'line': b'  465 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[3.876142] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.876230] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:465:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876320] (move_relative_ur) StderrLine: {'line': b'  465 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[3.876406] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.876491] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:480:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_condition&, const error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876582] (move_relative_ur) StderrLine: {'line': b'  480 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[3.876667] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.876754] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:480:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.876844] (move_relative_ur) StderrLine: {'line': b'  480 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[3.876929] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.877016] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:517:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_condition&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877222] (move_relative_ur) StderrLine: {'line': b'  517 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[3.877321] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.877409] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:517:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877508] (move_relative_ur) StderrLine: {'line': b'  517 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[3.877610] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.877703] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/future:51\x1b[m\x1b[K,\n'}
+[3.877790] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K:\n'}
+[3.877878] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_thread.h:324:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(thread::id, thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.877968] (move_relative_ur) StderrLine: {'line': b'  324 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[3.878057] (move_relative_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.878163] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_thread.h:324:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878258] (move_relative_ur) StderrLine: {'line': b'  324 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[3.878345] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.878434] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1273:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(monostate, monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878525] (move_relative_ur) StderrLine: {'line': b' 1273 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[3.878612] (move_relative_ur) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.878700] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1273:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.878802] (move_relative_ur) StderrLine: {'line': b' 1273 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[3.878891] (move_relative_ur) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.878979] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:61:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.879083] (move_relative_ur) StderrLine: {'line': b'   61 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[3.879183] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.916470] (-) TimerEvent: {}
+[4.016739] (-) TimerEvent: {}
+[4.117057] (-) TimerEvent: {}
+[4.217349] (-) TimerEvent: {}
+[4.317649] (-) TimerEvent: {}
+[4.417933] (-) TimerEvent: {}
+[4.518321] (-) TimerEvent: {}
+[4.618621] (-) TimerEvent: {}
+[4.719148] (-) TimerEvent: {}
+[4.819594] (-) TimerEvent: {}
+[4.919911] (-) TimerEvent: {}
+[5.020248] (-) TimerEvent: {}
+[5.120713] (-) TimerEvent: {}
+[5.221266] (-) TimerEvent: {}
+[5.323542] (-) TimerEvent: {}
+[5.429534] (-) TimerEvent: {}
+[5.530470] (-) TimerEvent: {}
+[5.630782] (-) TimerEvent: {}
+[5.731111] (-) TimerEvent: {}
+[5.831515] (-) TimerEvent: {}
+[5.932002] (-) TimerEvent: {}
+[6.032329] (-) TimerEvent: {}
+[6.132656] (-) TimerEvent: {}
+[6.233097] (-) TimerEvent: {}
+[6.333579] (-) TimerEvent: {}
+[6.434056] (-) TimerEvent: {}
+[6.534520] (-) TimerEvent: {}
+[6.635011] (-) TimerEvent: {}
+[6.735522] (-) TimerEvent: {}
+[6.836042] (-) TimerEvent: {}
+[6.936532] (-) TimerEvent: {}
+[7.037082] (-) TimerEvent: {}
+[7.137592] (-) TimerEvent: {}
+[7.238132] (-) TimerEvent: {}
+[7.340896] (-) TimerEvent: {}
+[7.441236] (-) TimerEvent: {}
+[7.541616] (-) TimerEvent: {}
+[7.642181] (-) TimerEvent: {}
+[7.704381] (move_relative_ur) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1\n'}
+[7.704839] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2\n'}
+[7.705160] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.742294] (-) TimerEvent: {}
+[7.842700] (-) TimerEvent: {}
+[7.943159] (-) TimerEvent: {}
+[8.043613] (-) TimerEvent: {}
+[8.144013] (-) TimerEvent: {}
+[8.244424] (-) TimerEvent: {}
+[8.344886] (-) TimerEvent: {}
+[8.445353] (-) TimerEvent: {}
+[8.545842] (-) TimerEvent: {}
+[8.646321] (-) TimerEvent: {}
+[8.746714] (-) TimerEvent: {}
+[8.847163] (-) TimerEvent: {}
+[8.947643] (-) TimerEvent: {}
+[9.048080] (-) TimerEvent: {}
+[9.148429] (-) TimerEvent: {}
+[9.248894] (-) TimerEvent: {}
+[9.349366] (-) TimerEvent: {}
+[9.449718] (-) TimerEvent: {}
+[9.550231] (-) TimerEvent: {}
+[9.650816] (-) TimerEvent: {}
+[9.751168] (-) TimerEvent: {}
+[9.851619] (-) TimerEvent: {}
+[9.952056] (-) TimerEvent: {}
+[10.052523] (-) TimerEvent: {}
+[10.152952] (-) TimerEvent: {}
+[10.253435] (-) TimerEvent: {}
+[10.353856] (-) TimerEvent: {}
+[10.454231] (-) TimerEvent: {}
+[10.554667] (-) TimerEvent: {}
+[10.654931] (-) TimerEvent: {}
+[10.755432] (-) TimerEvent: {}
+[10.855962] (-) TimerEvent: {}
+[10.956538] (-) TimerEvent: {}
+[11.057090] (-) TimerEvent: {}
+[11.157599] (-) TimerEvent: {}
+[11.257979] (-) TimerEvent: {}
+[11.358463] (-) TimerEvent: {}
+[11.458738] (-) TimerEvent: {}
+[11.559157] (-) TimerEvent: {}
+[11.659572] (-) TimerEvent: {}
+[11.759949] (-) TimerEvent: {}
+[11.860258] (-) TimerEvent: {}
+[11.960719] (-) TimerEvent: {}
+[12.061165] (-) TimerEvent: {}
+[12.161610] (-) TimerEvent: {}
+[12.262047] (-) TimerEvent: {}
+[12.362520] (-) TimerEvent: {}
+[12.462985] (-) TimerEvent: {}
+[12.563446] (-) TimerEvent: {}
+[12.663902] (-) TimerEvent: {}
+[12.764340] (-) TimerEvent: {}
+[12.864768] (-) TimerEvent: {}
+[12.965143] (-) TimerEvent: {}
+[13.065433] (-) TimerEvent: {}
+[13.165875] (-) TimerEvent: {}
+[13.266336] (-) TimerEvent: {}
+[13.366815] (-) TimerEvent: {}
+[13.467345] (-) TimerEvent: {}
+[13.567579] (-) TimerEvent: {}
+[13.667841] (-) TimerEvent: {}
+[13.768150] (-) TimerEvent: {}
+[13.868579] (-) TimerEvent: {}
+[13.968967] (-) TimerEvent: {}
+[14.069437] (-) TimerEvent: {}
+[14.169868] (-) TimerEvent: {}
+[14.270329] (-) TimerEvent: {}
+[14.370726] (-) TimerEvent: {}
+[14.471051] (-) TimerEvent: {}
+[14.571577] (-) TimerEvent: {}
+[14.672033] (-) TimerEvent: {}
+[14.772529] (-) TimerEvent: {}
+[14.873090] (-) TimerEvent: {}
+[14.973625] (-) TimerEvent: {}
+[15.074152] (-) TimerEvent: {}
+[15.174640] (-) TimerEvent: {}
+[15.275165] (-) TimerEvent: {}
+[15.375645] (-) TimerEvent: {}
+[15.476064] (-) TimerEvent: {}
+[15.520544] (move_relative_ur) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable robot_monitoring_node\x1b[0m\n'}
+[15.576160] (-) TimerEvent: {}
+[15.676534] (-) TimerEvent: {}
+[15.776814] (-) TimerEvent: {}
+[15.877132] (-) TimerEvent: {}
+[15.977473] (-) TimerEvent: {}
+[16.077946] (-) TimerEvent: {}
+[16.178375] (-) TimerEvent: {}
+[16.269379] (move_relative_ur) StdoutLine: {'line': b'[ 97%] Built target robot_monitoring_node\n'}
+[16.271328] (move_relative_ur) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.276467] (move_relative_ur) CommandEnded: {'returncode': 2}
+[16.278662] (-) TimerEvent: {}
+[16.299478] (move_relative_ur) JobEnded: {'identifier': 'move_relative_ur', 'rc': 2}
+[16.307933] (-) EventReactorShutdown: {}

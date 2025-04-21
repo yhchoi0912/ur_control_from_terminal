@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_move__py",
+		"source" : "/home/tsi/ws_moveit2/src/build/robot_move/robot_move__py"
+	}
+}

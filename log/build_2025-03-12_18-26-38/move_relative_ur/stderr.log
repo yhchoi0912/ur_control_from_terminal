@@ -1,0 +1,282 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:138:13:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  138 |             [01;31m[Kauto[m[K check_state_request = std::make_shared<ur_dashboard_msgs::srv::IsProgramRunning::Request>();
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:139:13:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  139 |             [01;31m[Kauto[m[K check_future = robot_status_client_->async_send_request(check_state_request);
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:140:13:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  140 |             [01;31m[Kauto[m[K check_response = check_future.get();
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:142:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  142 |             [01;31m[Kif[m[K (check_response->program_running == true) robot_mode = 1;
+      |             [01;31m[K^~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:144:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  144 |             [01;31m[Kreturn[m[K;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:145:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  145 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ was not declared in this scope
+   21 |             [01;31m[Krobot_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetRobotMode>(
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ was not declared in this scope
+   26 |             [01;31m[Ksafety_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetSafetyMode>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_timer_[m[K’ was not declared in this scope
+   31 |             [01;31m[Krobot_mode_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[KrequestRobotMode[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   33 |                 std::bind(&RobotMonitoringNode::[01;31m[KrequestRobotMode[m[K, this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_timer_[m[K’ was not declared in this scope
+   36 |             [01;31m[Ksafety_mode_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:38:49:[m[K [01;31m[Kerror: [m[K‘[01m[KrequestSafetyMode[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   38 |                 std::bind(&RobotMonitoringNode::[01;31m[KrequestSafetyMode[m[K, this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_sub_[m[K’ was not declared in this scope
+   42 |             [01;31m[Kjoint_state_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:44:49:[m[K [01;31m[Kerror: [m[K‘[01m[KjointStateCallback[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   44 |                 std::bind(&RobotMonitoringNode::[01;31m[KjointStateCallback[m[K, this, std::placeholders::_1));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+   47 |             [01;31m[Kerror_pub_[m[K = this->create_publisher<move_relative_ur::msg::ErrorMsg>("robot_monitoring", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kerror_t[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_node_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_timers_[m[K’?
+   50 |             [01;31m[Kfind_node_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Knode_timers_[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:52:49:[m[K [01;31m[Kerror: [m[K‘[01m[KcheckIfVelNodeIsRunning[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   52 |                 std::bind(&RobotMonitoringNode::[01;31m[KcheckIfVelNodeIsRunning[m[K, this)
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:55:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_status_client_[m[K’ was not declared in this scope
+   55 |             [01;31m[Krobot_status_client_[m[K = this->create_client<ur_dashboard_msgs::srv::IsProgramRunning>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   64 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KsendRobotStatusRequest[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_status_client_[m[K’ was not declared in this scope
+   78 |             while (![01;31m[Krobot_status_client_[m[K->wait_for_service(std::chrono::seconds(1))) {
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:83:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_status_client_[m[K’ was not declared in this scope
+   83 |             auto future_result = [01;31m[Krobot_status_client_[m[K->async_send_request(request,
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotProgramState[m[K(rclcpp::Client<ur_dashboard_msgs::srv::IsProgramRunning>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:103:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode[m[K’ was not declared in this scope
+  103 |             if(state_response->program_running == false && [01;31m[Krobot_mode[m[K != 1)
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K checkIfVelNodeIsRunning[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:155:27:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  155 |         auto node_names = [01;31m[Kthis[m[K->get_node_names();  // 실행 중인 노드 목록 가져오기
+      |                           [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K jointStateCallback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  200 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "jointStateCallback 실행 1");
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  200 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "jointStateCallback 실행 1");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  200 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "jointStateCallback 실행 1");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  200 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "jointStateCallback 실행 1");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  200 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "jointStateCallback 실행 1");
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:200:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  200 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "jointStateCallback 실행 1");
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:225:17:[m[K [01;31m[Kerror: [m[K‘[01m[KsendErrorMessage[m[K’ was not declared in this scope
+  225 |                 [01;31m[KsendErrorMessage[m[K(error_msg);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K sendErrorMessage[m[K(const std::string&)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:234:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_pub_[m[K’ was not declared in this scope
+  234 |         if (![01;31m[Kerror_pub_[m[K) {
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:235:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), " error_pub_ 퍼블리셔가 초기화되지 않음!");
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:240:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_pub_[m[K’ was not declared in this scope
+  240 |         [01;31m[Kerror_pub_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K requestRobotMode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:246:14:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ was not declared in this scope
+  246 |         if (![01;31m[Krobot_mode_sub_[m[K->wait_for_service(std::chrono::milliseconds(1000))) {
+      |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  247 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:247:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Robot Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:251:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ was not declared in this scope
+  251 |         auto future = [01;31m[Krobot_mode_sub_[m[K->async_send_request(
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:253:45:[m[K [01;31m[Kerror: [m[K‘[01m[KrobotModeResponse[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+  253 |             std::bind(&RobotMonitoringNode::[01;31m[KrobotModeResponse[m[K, this, std::placeholders::_1));
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:253:64:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  253 |             std::bind(&RobotMonitoringNode::robotModeResponse, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K robotModeResponse[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  263 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  263 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  263 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  263 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  263 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:263:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  263 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  268 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  268 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  268 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  268 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "%s", error_msg.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  268 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:268:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  268 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "%s", error_msg.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K requestSafetyMode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:283:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ was not declared in this scope
+  283 |         if (![01;31m[Ksafety_mode_sub_[m[K->wait_for_service(std::chrono::milliseconds(1000))) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  284 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  284 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  284 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  284 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  284 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:284:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  284 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "🚨 Safety Mode 서비스가 실행되지 않음!");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:290:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ was not declared in this scope
+  290 |         auto future = [01;31m[Ksafety_mode_sub_[m[K->async_send_request(
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:292:45:[m[K [01;31m[Kerror: [m[K‘[01m[KsafetyModeResponse[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+  292 |             std::bind(&RobotMonitoringNode::[01;31m[KsafetyModeResponse[m[K, this, std::placeholders::_1));
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:292:65:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  292 |             std::bind(&RobotMonitoringNode::safetyModeResponse, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K At global scope:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:296:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto robot_mode[m[K’ has no initializer
+  296 |     [01;31m[Kauto[m[K robot_mode; // 로봇 알람이 발생한 경우 로봇 프로그램은 일시정지가 되는데 그것을 해제하기 위한 변수
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K safetyModeResponse[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  299 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  299 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  299 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  299 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  299 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:299:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  299 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "안전 모드 응답 받음: %d", response->safety_mode.mode);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:307:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  307 |                 [01;31m[Ksafe_respones[m[K = 3;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:315:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  315 |                 [01;31m[Ksafe_respones[m[K = 4;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:323:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  323 |                 [01;31m[Ksafe_respones[m[K = 5;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:331:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  331 |                 [01;31m[Ksafe_respones[m[K = 6;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:340:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  340 |                 [01;31m[Ksafe_respones[m[K = 7;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:349:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafe_respones[m[K’ was not declared in this scope
+  349 |                 [01;31m[Ksafe_respones[m[K = 12;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K At global scope:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:377:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  377 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

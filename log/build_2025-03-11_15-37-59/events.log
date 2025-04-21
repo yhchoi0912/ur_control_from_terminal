@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000391] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000497] (-) JobUnselected: {'identifier': 'robot_move'}
+[0.000595] (-) JobUnselected: {'identifier': 'ur_action_move'}
+[0.000653] (move_relative_ur) JobQueued: {'identifier': 'move_relative_ur', 'dependencies': OrderedDict()}
+[0.000710] (move_relative_ur) JobStarted: {'identifier': 'move_relative_ur'}
+[0.019764] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'cmake'}
+[0.020875] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'build'}
+[0.033535] (move_relative_ur) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tsi/ws_moveit2/build/move_relative_ur', '--', '-j12', '-l12'], 'cwd': '/home/tsi/ws_moveit2/build/move_relative_ur', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2516-1-picksys_TIME758350', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tsi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib:/home/tsi/ws_moveit2/src/install/robot_move/lib:/home/tsi/workspace/install/ur_dashboard_msgs/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner/lib:/home/tsi/workspace/install/moveit_ros_control_interface/lib:/home/tsi/workspace/install/moveit_simple_controller_manager/lib:/home/tsi/workspace/install/moveit_setup_assistant/lib:/home/tsi/workspace/install/moveit_setup_srdf_plugins/lib:/home/tsi/workspace/install/moveit_setup_core_plugins/lib:/home/tsi/workspace/install/moveit_setup_controllers/lib:/home/tsi/workspace/install/moveit_setup_app_plugins/lib:/home/tsi/workspace/install/moveit_setup_framework/lib:/home/tsi/workspace/install/moveit_servo/lib:/home/tsi/workspace/install/moveit_ros_trajectory_cache/lib:/home/tsi/workspace/install/moveit_ros_visualization/lib:/home/tsi/workspace/install/moveit_py/lib:/home/tsi/workspace/install/moveit_hybrid_planning/lib:/home/tsi/workspace/install/moveit_ros_planning_interface/lib:/home/tsi/workspace/install/moveit_ros_benchmarks/lib:/home/tsi/workspace/install/moveit_ros_warehouse/lib:/home/tsi/workspace/install/moveit_ros_robot_interaction/lib:/home/tsi/workspace/install/moveit_ros_perception/lib:/home/tsi/workspace/install/moveit_ros_move_group/lib:/home/tsi/workspace/install/moveit_planners_ompl/lib:/home/tsi/workspace/install/moveit_kinematics/lib:/home/tsi/workspace/install/moveit_ros_planning/lib:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor/lib:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/tsi/workspace/install/moveit_planners_stomp/lib:/home/tsi/workspace/install/moveit_planners_chomp/lib:/home/tsi/workspace/install/chomp_motion_planner/lib:/home/tsi/workspace/install/moveit_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tsi', 'OLDPWD': '/home/tsi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2226', 'SYSTEMD_EXEC_PID': '2516', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tsi/ws_moveit2/install:/home/tsi/ws_moveit2/src/install:/home/tsi/workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tsi', 'JOURNAL_STREAM': '9:26633', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tsi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/tsi/workspace/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/picksys:@/tmp/.ICE-unix/2485,unix/picksys:/tmp/.ICE-unix/2485', 'INVOCATION_ID': '7ea9ce7ad354484cb1a0c17e89d39643', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L3B822', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_configs_utils:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:127c774d-3ed8-4e3b-beb7-21c8ce9337bc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tsi/ws_moveit2/build/move_relative_ur', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages:/home/tsi/ws_moveit2/src/install/robot_move/lib/python3.12/site-packages:/home/tsi/workspace/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_py/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[0.099035] (-) TimerEvent: {}
+[0.103096] (move_relative_ur) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.166896] (move_relative_ur) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.199169] (-) TimerEvent: {}
+[0.281507] (move_relative_ur) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299299] (-) TimerEvent: {}
+[0.305321] (move_relative_ur) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.351668] (move_relative_ur) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.364108] (move_relative_ur) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.382088] (move_relative_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399411] (-) TimerEvent: {}
+[0.404295] (move_relative_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499576] (-) TimerEvent: {}
+[0.519474] (move_relative_ur) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.524096] (move_relative_ur) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599688] (-) TimerEvent: {}
+[0.660552] (move_relative_ur) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.699834] (-) TimerEvent: {}
+[0.764988] (move_relative_ur) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.788191] (move_relative_ur) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.799964] (-) TimerEvent: {}
+[0.816032] (move_relative_ur) StdoutLine: {'line': b'-- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)\n'}
+[0.900093] (-) TimerEvent: {}
+[0.901020] (move_relative_ur) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.958884] (move_relative_ur) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.983629] (move_relative_ur) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.996496] (move_relative_ur) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.000198] (-) TimerEvent: {}
+[1.100626] (-) TimerEvent: {}
+[1.201096] (-) TimerEvent: {}
+[1.301432] (-) TimerEvent: {}
+[1.401778] (-) TimerEvent: {}
+[1.450102] (move_relative_ur) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.501841] (-) TimerEvent: {}
+[1.602205] (-) TimerEvent: {}
+[1.702759] (-) TimerEvent: {}
+[1.787208] (move_relative_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802893] (-) TimerEvent: {}
+[1.903366] (-) TimerEvent: {}
+[1.928744] (move_relative_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.931394] (move_relative_ur) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.003848] (-) TimerEvent: {}
+[2.104214] (-) TimerEvent: {}
+[2.204652] (-) TimerEvent: {}
+[2.305001] (-) TimerEvent: {}
+[2.405423] (-) TimerEvent: {}
+[2.426776] (move_relative_ur) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.505510] (-) TimerEvent: {}
+[2.540113] (move_relative_ur) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.555600] (move_relative_ur) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.557129] (move_relative_ur) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.557475] (move_relative_ur) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.558021] (move_relative_ur) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.559425] (move_relative_ur) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.559714] (move_relative_ur) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.560045] (move_relative_ur) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.564334] (move_relative_ur) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.605601] (-) TimerEvent: {}
+[2.636260] (move_relative_ur) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.651846] (move_relative_ur) StdoutLine: {'line': b'-- Build files have been written to: /home/tsi/ws_moveit2/build/move_relative_ur\n'}
+[2.705759] (-) TimerEvent: {}
+[2.758770] (move_relative_ur) StdoutLine: {'line': b'[  2%] Built target move_relative_ur__rosidl_generator_type_description\n'}
+[2.783103] (move_relative_ur) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_move_relative_ur\n'}
+[2.799021] (move_relative_ur) StdoutLine: {'line': b'[  5%] Built target move_relative_ur__cpp\n'}
+[2.804179] (move_relative_ur) StdoutLine: {'line': b'[ 18%] Built target move_relative_ur__rosidl_generator_c\n'}
+[2.805841] (-) TimerEvent: {}
+[2.852858] (move_relative_ur) StdoutLine: {'line': b'[ 26%] Built target move_relative_ur__rosidl_typesupport_c\n'}
+[2.854964] (move_relative_ur) StdoutLine: {'line': b'[ 36%] Built target move_relative_ur__rosidl_typesupport_cpp\n'}
+[2.855246] (move_relative_ur) StdoutLine: {'line': b'[ 50%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp\n'}
+[2.855501] (move_relative_ur) StdoutLine: {'line': b'[ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp\n'}
+[2.857481] (move_relative_ur) StdoutLine: {'line': b'[ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_c\n'}
+[2.862002] (move_relative_ur) StdoutLine: {'line': b'[ 65%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c\n'}
+[2.904962] (move_relative_ur) StdoutLine: {'line': b'[ 68%] Built target move_relative_ur\n'}
+[2.905296] (move_relative_ur) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o\x1b[0m\n'}
+[2.905915] (-) TimerEvent: {}
+[2.916581] (move_relative_ur) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o\x1b[0m\n'}
+[2.950321] (move_relative_ur) StdoutLine: {'line': b'[ 73%] Built target move_relative_ur__py\n'}
+[2.998558] (move_relative_ur) StdoutLine: {'line': b'[ 78%] Built target move_relative_ur__rosidl_generator_py\n'}
+[3.006057] (-) TimerEvent: {}
+[3.045552] (move_relative_ur) StdoutLine: {'line': b'[ 84%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c\n'}
+[3.053963] (move_relative_ur) StdoutLine: {'line': b'[ 89%] Built target move_relative_ur_s__rosidl_typesupport_c\n'}
+[3.057591] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c\n'}
+[3.106179] (-) TimerEvent: {}
+[3.206569] (-) TimerEvent: {}
+[3.234180] (move_relative_ur) StdoutLine: {'line': b'running egg_info\n'}
+[3.276287] (move_relative_ur) StdoutLine: {'line': b'writing move_relative_ur.egg-info/PKG-INFO\n'}
+[3.276891] (move_relative_ur) StdoutLine: {'line': b'writing dependency_links to move_relative_ur.egg-info/dependency_links.txt\n'}
+[3.277310] (move_relative_ur) StdoutLine: {'line': b'writing top-level names to move_relative_ur.egg-info/top_level.txt\n'}
+[3.306679] (-) TimerEvent: {}
+[3.407148] (-) TimerEvent: {}
+[3.413678] (move_relative_ur) StdoutLine: {'line': b"reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[3.414664] (move_relative_ur) StdoutLine: {'line': b"writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[3.483105] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_move_relative_ur_egg\n'}
+[3.507202] (-) TimerEvent: {}
+[3.607510] (-) TimerEvent: {}
+[3.707985] (-) TimerEvent: {}
+[3.808431] (-) TimerEvent: {}
+[3.908879] (-) TimerEvent: {}
+[4.009326] (-) TimerEvent: {}
+[4.109777] (-) TimerEvent: {}
+[4.210244] (-) TimerEvent: {}
+[4.310535] (-) TimerEvent: {}
+[4.410976] (-) TimerEvent: {}
+[4.511357] (-) TimerEvent: {}
+[4.611799] (-) TimerEvent: {}
+[4.712101] (-) TimerEvent: {}
+[4.812409] (-) TimerEvent: {}
+[4.912726] (-) TimerEvent: {}
+[5.013056] (-) TimerEvent: {}
+[5.113337] (-) TimerEvent: {}
+[5.213668] (-) TimerEvent: {}
+[5.314224] (-) TimerEvent: {}
+[5.414705] (-) TimerEvent: {}
+[5.515262] (-) TimerEvent: {}
+[5.615579] (-) TimerEvent: {}
+[5.716052] (-) TimerEvent: {}
+[5.816468] (-) TimerEvent: {}
+[5.917016] (-) TimerEvent: {}
+[5.985202] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotMonitoringNode::\x1b[01;32m\x1b[KrobotProgramState\x1b[m\x1b[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.985743] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:82:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<std_srvs::srv::Trigger_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct std_srvs::srv::Trigger_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct std_srvs::srv::Trigger_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kstate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.986153] (move_relative_ur) StderrLine: {'line': b'   82 |             if(state_response->\x1b[01;31m\x1b[Kstate\x1b[m\x1b[K.state == "PAUSED" && safe_respones > 0)\n'}
+[5.986468] (move_relative_ur) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.017129] (-) TimerEvent: {}
+[6.117555] (-) TimerEvent: {}
+[6.218117] (-) TimerEvent: {}
+[6.318563] (-) TimerEvent: {}
+[6.419018] (-) TimerEvent: {}
+[6.519470] (-) TimerEvent: {}
+[6.619885] (-) TimerEvent: {}
+[6.720344] (-) TimerEvent: {}
+[6.820681] (-) TimerEvent: {}
+[6.921007] (-) TimerEvent: {}
+[7.021317] (-) TimerEvent: {}
+[7.121627] (-) TimerEvent: {}
+[7.221948] (-) TimerEvent: {}
+[7.322253] (-) TimerEvent: {}
+[7.422571] (-) TimerEvent: {}
+[7.522856] (-) TimerEvent: {}
+[7.623147] (-) TimerEvent: {}
+[7.723430] (-) TimerEvent: {}
+[7.823715] (-) TimerEvent: {}
+[7.924004] (-) TimerEvent: {}
+[8.024284] (-) TimerEvent: {}
+[8.124585] (-) TimerEvent: {}
+[8.224853] (-) TimerEvent: {}
+[8.325194] (-) TimerEvent: {}
+[8.425610] (-) TimerEvent: {}
+[8.526052] (-) TimerEvent: {}
+[8.626525] (-) TimerEvent: {}
+[8.727012] (-) TimerEvent: {}
+[8.827448] (-) TimerEvent: {}
+[8.927864] (-) TimerEvent: {}
+[9.028170] (-) TimerEvent: {}
+[9.128475] (-) TimerEvent: {}
+[9.228826] (-) TimerEvent: {}
+[9.321382] (move_relative_ur) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1\n'}
+[9.322039] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2\n'}
+[9.322411] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.328909] (-) TimerEvent: {}
+[9.429298] (-) TimerEvent: {}
+[9.529742] (-) TimerEvent: {}
+[9.630162] (-) TimerEvent: {}
+[9.730556] (-) TimerEvent: {}
+[9.830970] (-) TimerEvent: {}
+[9.931375] (-) TimerEvent: {}
+[10.031775] (-) TimerEvent: {}
+[10.132074] (-) TimerEvent: {}
+[10.232361] (-) TimerEvent: {}
+[10.332654] (-) TimerEvent: {}
+[10.432965] (-) TimerEvent: {}
+[10.533254] (-) TimerEvent: {}
+[10.633541] (-) TimerEvent: {}
+[10.733841] (-) TimerEvent: {}
+[10.834126] (-) TimerEvent: {}
+[10.934414] (-) TimerEvent: {}
+[11.034699] (-) TimerEvent: {}
+[11.135003] (-) TimerEvent: {}
+[11.235292] (-) TimerEvent: {}
+[11.335583] (-) TimerEvent: {}
+[11.435856] (-) TimerEvent: {}
+[11.536146] (-) TimerEvent: {}
+[11.636439] (-) TimerEvent: {}
+[11.736729] (-) TimerEvent: {}
+[11.837030] (-) TimerEvent: {}
+[11.937330] (-) TimerEvent: {}
+[12.037614] (-) TimerEvent: {}
+[12.138237] (-) TimerEvent: {}
+[12.238660] (-) TimerEvent: {}
+[12.338974] (-) TimerEvent: {}
+[12.439403] (-) TimerEvent: {}
+[12.539850] (-) TimerEvent: {}
+[12.640286] (-) TimerEvent: {}
+[12.740697] (-) TimerEvent: {}
+[12.841144] (-) TimerEvent: {}
+[12.890251] (move_relative_ur) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable move_relative_node\x1b[0m\n'}
+[12.941279] (-) TimerEvent: {}
+[13.041692] (-) TimerEvent: {}
+[13.142253] (-) TimerEvent: {}
+[13.242665] (-) TimerEvent: {}
+[13.343124] (-) TimerEvent: {}
+[13.438708] (move_relative_ur) StdoutLine: {'line': b'[ 97%] Built target move_relative_node\n'}
+[13.440964] (move_relative_ur) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.443184] (-) TimerEvent: {}
+[13.444550] (move_relative_ur) CommandEnded: {'returncode': 2}
+[13.499729] (move_relative_ur) JobEnded: {'identifier': 'move_relative_ur', 'rc': 2}
+[13.501458] (-) EventReactorShutdown: {}

@@ -1,0 +1,127 @@
+[0.039s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.198s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.232s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.238s] [  5%] Built target move_relative_ur__cpp
+[0.261s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.312s] [ 26%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.312s] [ 34%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.317s] [ 50%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.317s] [ 50%] Built target move_relative_ur__rosidl_typesupport_c
+[0.319s] [ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.319s] [ 65%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.358s] [ 65%] Built target move_relative_ur
+[0.363s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.366s] [ 73%] Built target move_relative_node
+[0.414s] [ 76%] Built target move_relative_ur__py
+[0.477s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.532s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.534s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.535s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.691s] running egg_info
+[0.741s] writing move_relative_ur.egg-info/PKG-INFO
+[0.762s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.765s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.892s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.893s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.948s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[11.614s] [100%] [32m[1mLinking CXX executable robot_monitoring_node[0m
+[12.253s] [100%] Built target robot_monitoring_node
+[12.273s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[12.291s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsi/ws_moveit2/build/move_relative_ur
+[12.304s] -- Install configuration: ""
+[12.305s] -- Execute custom install script
+[12.305s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/ament_index/resource_index/rosidl_interfaces/move_relative_ur
+[12.306s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/msg/ErrorMsg.json
+[12.306s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__functions.h
+[12.306s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__struct.h
+[12.307s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__type_support.h
+[12.307s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/error_msg.h
+[12.307s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/rosidl_generator_c__visibility_control.h
+[12.308s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/library_path.sh
+[12.309s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/library_path.dsv
+[12.310s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__rosidl_typesupport_fastrtps_c.h
+[12.310s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.311s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__builder.hpp
+[12.311s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__struct.hpp
+[12.312s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__traits.hpp
+[12.312s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__type_support.hpp
+[12.313s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/error_msg.hpp
+[12.313s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.313s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.314s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.314s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__rosidl_typesupport_introspection_c.h
+[12.314s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.315s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/include/move_relative_ur/move_relative_ur/msg/detail/error_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.316s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/pythonpath.sh
+[12.316s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/pythonpath.dsv
+[12.317s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur-0.0.1-py3.12.egg-info/PKG-INFO
+[12.317s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur-0.0.1-py3.12.egg-info/SOURCES.txt
+[12.317s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur-0.0.1-py3.12.egg-info/dependency_links.txt
+[12.318s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur-0.0.1-py3.12.egg-info/top_level.txt
+[12.318s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/__init__.py
+[12.318s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/_move_relative_ur_s.ep.rosidl_typesupport_c.c
+[12.318s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/_move_relative_ur_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/_move_relative_ur_s.ep.rosidl_typesupport_introspection_c.c
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_c.so
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_fastrtps_c.so
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_introspection_c.so
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/msg/__init__.py
+[12.319s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/msg/_error_msg.py
+[12.320s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/msg/_error_msg_s.c
+[12.320s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_fastrtps_c.so
+[12.320s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_introspection_c.so
+[12.320s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/move_relative_ur_s__rosidl_typesupport_c.so
+[12.320s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/msg/ErrorMsg.idl
+[12.321s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/msg/ErrorMsg.msg
+[12.321s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/move_relative_ur/move_relative_node
+[12.321s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/lib/move_relative_ur/robot_monitoring_node
+[12.321s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/ament_index/resource_index/package_run_dependencies/move_relative_ur
+[12.321s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/ament_index/resource_index/parent_prefix_path/move_relative_ur
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/ament_prefix_path.sh
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/ament_prefix_path.dsv
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/path.sh
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/environment/path.dsv
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/local_setup.bash
+[12.322s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/local_setup.sh
+[12.323s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/local_setup.zsh
+[12.323s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/local_setup.dsv
+[12.323s] -- Symlinking: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/package.dsv
+[12.343s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/ament_index/resource_index/packages/move_relative_ur
+[12.343s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/rosidl_cmake-extras.cmake
+[12.344s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.345s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/ament_cmake_export_libraries-extras.cmake
+[12.345s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/ament_cmake_export_targets-extras.cmake
+[12.346s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.346s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.346s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.346s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_urConfig.cmake
+[12.347s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_urConfig-version.cmake
+[12.347s] -- Up-to-date symlink: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/package.xml
+[12.348s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_generator_c.so
+[12.349s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_fastrtps_c.so
+[12.350s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_fastrtps_cpp.so
+[12.351s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_introspection_c.so
+[12.352s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_c.so
+[12.353s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_introspection_cpp.so
+[12.354s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_typesupport_cpp.so
+[12.402s] Listing '/home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur'...
+[12.402s] Listing '/home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages/move_relative_ur/msg'...
+[12.411s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/lib/libmove_relative_ur__rosidl_generator_py.so
+[12.412s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_generator_cExport.cmake
+[12.413s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_generator_cExport-noconfig.cmake
+[12.413s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_typesupport_fastrtps_cExport.cmake
+[12.413s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.414s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_generator_cppExport.cmake
+[12.414s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.415s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.415s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_introspection_cExport.cmake
+[12.416s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.416s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_cExport.cmake
+[12.416s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_cExport-noconfig.cmake
+[12.417s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_introspection_cppExport.cmake
+[12.417s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.418s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_cppExport.cmake
+[12.418s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/move_relative_ur__rosidl_typesupport_cppExport-noconfig.cmake
+[12.419s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_generator_pyExport.cmake
+[12.419s] -- Up-to-date: /home/tsi/ws_moveit2/install/move_relative_ur/share/move_relative_ur/cmake/export_move_relative_ur__rosidl_generator_pyExport-noconfig.cmake
+[12.422s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsi/ws_moveit2/build/move_relative_ur

@@ -1,0 +1,18 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:157:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+  157 |     rclcpp::TimerBase::SharedPtr [01;31m[K=[m[K error_process_timer_;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In constructor ‘[01m[KURScriptRelativeMove::[01;32m[KURScriptRelativeMove[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_process_timer_[m[K’ was not declared in this scope
+   32 |         [01;31m[Kerror_process_timer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:1[m[K:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In member function ‘[01m[Kvoid URScriptRelativeMove::[01;32m[KprocessErrorMessage[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:54:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_msg[m[K’?
+   54 |             RCLCPP_WARN(this->get_logger(), "🚨 오류 메시지 수신: %s 프로그램을 종료합니다.", [01;31m[Kerror_msg_[m[K.c_str());
+      |                                                                                               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

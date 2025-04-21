@@ -1,0 +1,7 @@
+{
+  "package_name": "move_relative_ur",
+  "output_dir": "/home/tsi/ws_moveit2/build/move_relative_ur/rosidl_generator_type_description/move_relative_ur",
+  "idl_tuples": [
+    "/home/tsi/ws_moveit2/build/move_relative_ur/rosidl_adapter/move_relative_ur:msg/ErrorMsg.idl"
+  ]
+}

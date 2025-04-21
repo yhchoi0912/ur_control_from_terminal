@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from move_relative_ur/msg/ErrorMsg.msg
+// generated code does not contain a copyright notice
+
+
+module move_relative_ur {
+  module msg {
+    struct ErrorMsg {
+      string message;
+    };
+  };
+};

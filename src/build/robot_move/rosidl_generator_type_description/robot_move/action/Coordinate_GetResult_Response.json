@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robot_move/action/Coordinate_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_move/action/Coordinate_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "robot_move/action/Coordinate_Result",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "robot_move/action/Coordinate_GetResult_Response",
+      "hash_string": "RIHS01_0070b4bd28c5045c2133eca0ec4aff3b615ee17c86909c225ba80e2c085fdf19"
+    },
+    {
+      "type_name": "robot_move/action/Coordinate_Result",
+      "hash_string": "RIHS01_c4959dede6800b08d13f1e0cd1354e64f91a1273ee2199e18e3ea3413fe220ea"
+    }
+  ]
+}

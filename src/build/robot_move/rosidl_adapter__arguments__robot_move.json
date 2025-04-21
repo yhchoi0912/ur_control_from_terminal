@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_move",
+  "non_idl_tuples": [
+    "/home/tsi/ws_moveit2/src/robot_move:action/Coordinate.action"
+  ]
+}

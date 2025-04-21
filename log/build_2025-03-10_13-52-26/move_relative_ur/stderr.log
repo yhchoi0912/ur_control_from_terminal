@@ -1,0 +1,32 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotModeResponse[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’
+   79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:144:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  144 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:31:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   79 |             RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "✅ 로봇 정상 동작 중.");
+      |                               [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:31:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   79 |             RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "✅ 로봇 정상 동작 중.");
+      |                               [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

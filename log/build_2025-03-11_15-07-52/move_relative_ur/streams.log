@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.115s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.159s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.350s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.668s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.784s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.809s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.838s] -- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.963s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.033s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.033s]   By not providing "Findget_program_state.cmake" in CMAKE_MODULE_PATH this
+[1.034s]   project has asked CMake to find a package configuration file provided by
+[1.034s]   "get_program_state", but CMake did not find one.
+[1.034s] 
+[1.035s]   Could not find a package configuration file provided by "get_program_state"
+[1.035s]   with any of the following names:
+[1.035s] 
+[1.036s]     get_program_stateConfig.cmake
+[1.036s]     get_program_state-config.cmake
+[1.036s] 
+[1.037s]   Add the installation prefix of "get_program_state" to CMAKE_PREFIX_PATH or
+[1.037s]   set "get_program_state_DIR" to a directory containing one of the above
+[1.037s]   files.  If "get_program_state" provides a separate development package or
+[1.038s]   SDK, be sure it has been installed.
+[1.038s] 
+[1.038s] [0m
+[1.039s] -- Configuring incomplete, errors occurred!
+[1.049s] gmake: *** [Makefile:897: cmake_check_build_system] Error 1
+[1.053s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000345] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000376] (-) JobUnselected: {'identifier': 'robot_move'}
+[0.000399] (-) JobUnselected: {'identifier': 'ur_action_move'}
+[0.000498] (move_relative_ur) JobQueued: {'identifier': 'move_relative_ur', 'dependencies': OrderedDict()}
+[0.000527] (move_relative_ur) JobStarted: {'identifier': 'move_relative_ur'}
+[0.019828] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'cmake'}
+[0.020628] (move_relative_ur) JobProgress: {'identifier': 'move_relative_ur', 'progress': 'build'}
+[0.021783] (move_relative_ur) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tsi/ws_moveit2/build/move_relative_ur', '--', '-j12', '-l12'], 'cwd': '/home/tsi/ws_moveit2/build/move_relative_ur', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2516-1-picksys_TIME758350', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tsi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib:/home/tsi/ws_moveit2/src/install/robot_move/lib:/home/tsi/workspace/install/ur_dashboard_msgs/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils/lib:/home/tsi/workspace/install/pilz_industrial_motion_planner/lib:/home/tsi/workspace/install/moveit_ros_control_interface/lib:/home/tsi/workspace/install/moveit_simple_controller_manager/lib:/home/tsi/workspace/install/moveit_setup_assistant/lib:/home/tsi/workspace/install/moveit_setup_srdf_plugins/lib:/home/tsi/workspace/install/moveit_setup_core_plugins/lib:/home/tsi/workspace/install/moveit_setup_controllers/lib:/home/tsi/workspace/install/moveit_setup_app_plugins/lib:/home/tsi/workspace/install/moveit_setup_framework/lib:/home/tsi/workspace/install/moveit_servo/lib:/home/tsi/workspace/install/moveit_ros_trajectory_cache/lib:/home/tsi/workspace/install/moveit_ros_visualization/lib:/home/tsi/workspace/install/moveit_py/lib:/home/tsi/workspace/install/moveit_hybrid_planning/lib:/home/tsi/workspace/install/moveit_ros_planning_interface/lib:/home/tsi/workspace/install/moveit_ros_benchmarks/lib:/home/tsi/workspace/install/moveit_ros_warehouse/lib:/home/tsi/workspace/install/moveit_ros_robot_interaction/lib:/home/tsi/workspace/install/moveit_ros_perception/lib:/home/tsi/workspace/install/moveit_ros_move_group/lib:/home/tsi/workspace/install/moveit_planners_ompl/lib:/home/tsi/workspace/install/moveit_kinematics/lib:/home/tsi/workspace/install/moveit_ros_planning/lib:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor/lib:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/tsi/workspace/install/moveit_planners_stomp/lib:/home/tsi/workspace/install/moveit_planners_chomp/lib:/home/tsi/workspace/install/chomp_motion_planner/lib:/home/tsi/workspace/install/moveit_core/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tsi', 'OLDPWD': '/home/tsi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2226', 'SYSTEMD_EXEC_PID': '2516', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tsi/ws_moveit2/install:/home/tsi/ws_moveit2/src/install:/home/tsi/workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tsi', 'JOURNAL_STREAM': '9:26633', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tsi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/tsi/workspace/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/picksys:@/tmp/.ICE-unix/2485,unix/picksys:/tmp/.ICE-unix/2485', 'INVOCATION_ID': '7ea9ce7ad354484cb1a0c17e89d39643', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L3B822', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_configs_utils:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:127c774d-3ed8-4e3b-beb7-21c8ce9337bc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tsi/ws_moveit2/build/move_relative_ur', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tsi/ws_moveit2/install/move_relative_ur/lib/python3.12/site-packages:/home/tsi/ws_moveit2/src/install/robot_move/lib/python3.12/site-packages:/home/tsi/workspace/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_py/lib/python3.12/site-packages:/home/tsi/workspace/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tsi/ws_moveit2/install/move_relative_ur:/home/tsi/ws_moveit2/src/install/robot_move:/home/tsi/workspace/install/ur_dashboard_msgs:/home/tsi/workspace/install/robot_motion_control:/home/tsi/workspace/install/pilz_industrial_motion_planner_testutils:/home/tsi/workspace/install/moveit_runtime:/home/tsi/workspace/install/moveit:/home/tsi/workspace/install/moveit_planners:/home/tsi/workspace/install/pilz_industrial_motion_planner:/home/tsi/workspace/install/my_robot_state:/home/tsi/workspace/install/moveit_ros_control_interface:/home/tsi/workspace/install/moveit_plugins:/home/tsi/workspace/install/moveit_simple_controller_manager:/home/tsi/workspace/install/moveit_setup_assistant:/home/tsi/workspace/install/moveit_setup_srdf_plugins:/home/tsi/workspace/install/moveit_setup_core_plugins:/home/tsi/workspace/install/moveit_setup_controllers:/home/tsi/workspace/install/moveit_setup_app_plugins:/home/tsi/workspace/install/moveit_setup_framework:/home/tsi/workspace/install/moveit_servo:/home/tsi/workspace/install/moveit_ros_trajectory_cache:/home/tsi/workspace/install/moveit_ros:/home/tsi/workspace/install/moveit_ros_visualization:/home/tsi/workspace/install/moveit_py:/home/tsi/workspace/install/moveit_hybrid_planning:/home/tsi/workspace/install/moveit_ros_planning_interface:/home/tsi/workspace/install/moveit_ros_benchmarks:/home/tsi/workspace/install/moveit_ros_warehouse:/home/tsi/workspace/install/moveit_ros_robot_interaction:/home/tsi/workspace/install/moveit_ros_perception:/home/tsi/workspace/install/moveit_resources_prbt_pg70_support:/home/tsi/workspace/install/moveit_resources_prbt_moveit_config:/home/tsi/workspace/install/moveit_ros_move_group:/home/tsi/workspace/install/moveit_planners_ompl:/home/tsi/workspace/install/moveit_kinematics:/home/tsi/workspace/install/moveit_ros_planning:/home/tsi/workspace/install/moveit_ros_occupancy_map_monitor:/home/tsi/workspace/install/moveit_resources_prbt_support:/home/tsi/workspace/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/tsi/workspace/install/moveit_planners_stomp:/home/tsi/workspace/install/moveit_planners_chomp:/home/tsi/workspace/install/chomp_motion_planner:/home/tsi/workspace/install/moveit_core:/home/tsi/workspace/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy'}), 'shell': False}
+[0.099031] (-) TimerEvent: {}
+[0.199311] (-) TimerEvent: {}
+[0.225749] (move_relative_ur) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_move_relative_ur\n'}
+[0.246288] (move_relative_ur) StdoutLine: {'line': b'[  2%] Built target move_relative_ur__rosidl_generator_type_description\n'}
+[0.283786] (move_relative_ur) StdoutLine: {'line': b'[ 15%] Built target move_relative_ur__rosidl_generator_c\n'}
+[0.285655] (move_relative_ur) StdoutLine: {'line': b'[ 18%] Built target move_relative_ur__cpp\n'}
+[0.299368] (-) TimerEvent: {}
+[0.349081] (move_relative_ur) StdoutLine: {'line': b'[ 26%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c\n'}
+[0.349690] (move_relative_ur) StdoutLine: {'line': b'[ 34%] Built target move_relative_ur__rosidl_typesupport_cpp\n'}
+[0.353651] (move_relative_ur) StdoutLine: {'line': b'[ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp\n'}
+[0.356302] (move_relative_ur) StdoutLine: {'line': b'[ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_c\n'}
+[0.358145] (move_relative_ur) StdoutLine: {'line': b'[ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp\n'}
+[0.358982] (move_relative_ur) StdoutLine: {'line': b'[ 65%] Built target move_relative_ur__rosidl_typesupport_c\n'}
+[0.396016] (move_relative_ur) StdoutLine: {'line': b'[ 65%] Built target move_relative_ur\n'}
+[0.399488] (-) TimerEvent: {}
+[0.410096] (move_relative_ur) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o\x1b[0m\n'}
+[0.440045] (move_relative_ur) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o\x1b[0m\n'}
+[0.451454] (move_relative_ur) StdoutLine: {'line': b'[ 73%] Built target move_relative_ur__py\n'}
+[0.487805] (move_relative_ur) StdoutLine: {'line': b'[ 78%] Built target move_relative_ur__rosidl_generator_py\n'}
+[0.499589] (-) TimerEvent: {}
+[0.549263] (move_relative_ur) StdoutLine: {'line': b'[ 84%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c\n'}
+[0.552169] (move_relative_ur) StdoutLine: {'line': b'[ 89%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c\n'}
+[0.566462] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target move_relative_ur_s__rosidl_typesupport_c\n'}
+[0.599670] (-) TimerEvent: {}
+[0.700018] (-) TimerEvent: {}
+[0.791466] (move_relative_ur) StdoutLine: {'line': b'running egg_info\n'}
+[0.800131] (-) TimerEvent: {}
+[0.848306] (move_relative_ur) StdoutLine: {'line': b'writing move_relative_ur.egg-info/PKG-INFO\n'}
+[0.848669] (move_relative_ur) StdoutLine: {'line': b'writing dependency_links to move_relative_ur.egg-info/dependency_links.txt\n'}
+[0.848876] (move_relative_ur) StdoutLine: {'line': b'writing top-level names to move_relative_ur.egg-info/top_level.txt\n'}
+[0.900228] (-) TimerEvent: {}
+[1.000544] (-) TimerEvent: {}
+[1.019622] (move_relative_ur) StdoutLine: {'line': b"reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[1.020613] (move_relative_ur) StdoutLine: {'line': b"writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'\n"}
+[1.087915] (move_relative_ur) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_move_relative_ur_egg\n'}
+[1.100674] (-) TimerEvent: {}
+[1.201062] (-) TimerEvent: {}
+[1.301380] (-) TimerEvent: {}
+[1.404203] (-) TimerEvent: {}
+[1.504571] (-) TimerEvent: {}
+[1.605032] (-) TimerEvent: {}
+[1.707771] (-) TimerEvent: {}
+[1.808358] (-) TimerEvent: {}
+[1.908735] (-) TimerEvent: {}
+[2.009134] (-) TimerEvent: {}
+[2.109563] (-) TimerEvent: {}
+[2.210108] (-) TimerEvent: {}
+[2.310575] (-) TimerEvent: {}
+[2.411096] (-) TimerEvent: {}
+[2.511604] (-) TimerEvent: {}
+[2.612151] (-) TimerEvent: {}
+[2.712690] (-) TimerEvent: {}
+[2.813129] (-) TimerEvent: {}
+[2.913618] (-) TimerEvent: {}
+[3.013936] (-) TimerEvent: {}
+[3.114231] (-) TimerEvent: {}
+[3.214622] (-) TimerEvent: {}
+[3.314919] (-) TimerEvent: {}
+[3.415216] (-) TimerEvent: {}
+[3.515570] (-) TimerEvent: {}
+[3.532211] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.532558] (move_relative_ur) StderrLine: {'line': b'   55 |     void robotProgramState(rclcpp::Client<\x1b[01;31m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K::srv::GetProgramState>::SharedFuture future)\n'}
+[3.532675] (move_relative_ur) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.532772] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.532864] (move_relative_ur) StderrLine: {'line': b'   55 | obotProgramState(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[3.532957] (move_relative_ur) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.533048] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.544935] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.545579] (move_relative_ur) StderrLine: {'line': b'   55 |     void robotProgramState(rclcpp::Client<\x1b[01;31m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K::srv::GetProgramState>::SharedFuture future)\n'}
+[3.546025] (move_relative_ur) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.546470] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.546929] (move_relative_ur) StderrLine: {'line': b'   55 | obotProgramState(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[3.547233] (move_relative_ur) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.547575] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.557832] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.558657] (move_relative_ur) StderrLine: {'line': b'   55 |     void robotProgramState(rclcpp::Client<\x1b[01;31m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K::srv::GetProgramState>::SharedFuture future)\n'}
+[3.558801] (move_relative_ur) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.559069] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.559198] (move_relative_ur) StderrLine: {'line': b'   55 | obotProgramState(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedFuture future)\n'}
+[3.559301] (move_relative_ur) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.559418] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.559538] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[3.559640] (move_relative_ur) StderrLine: {'line': b'   55 |     void robotProgramState(\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture future)\n'}
+[3.559745] (move_relative_ur) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.559859] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.559964] (move_relative_ur) StderrLine: {'line': b'   55 |     void robotProgramState(rclcpp::Client<\x1b[01;31m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K::srv::GetProgramState>::SharedFuture future)\n'}
+[3.560069] (move_relative_ur) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.560168] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.560280] (move_relative_ur) StderrLine: {'line': b'   55 | tate(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[3.560382] (move_relative_ur) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.560493] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.560599] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.560705] (move_relative_ur) StderrLine: {'line': b'   55 | tate\x1b[34m\x1b[K(\x1b[m\x1b[Krclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[3.560820] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[34m\x1b[K~\x1b[m\x1b[K                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[3.560925] (move_relative_ur) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.561037] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.561151] (move_relative_ur) StderrLine: {'line': b'   55 | tProgramState(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::\x1b[01;31m\x1b[KSharedFuture\x1b[m\x1b[K future)\n'}
+[3.561392] (move_relative_ur) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.561522] (move_relative_ur) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.561632] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:55:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.561740] (move_relative_ur) StderrLine: {'line': b'   55 | tate(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[3.561848] (move_relative_ur) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.561953] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.615674] (-) TimerEvent: {}
+[3.626933] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid URScriptRelativeMove::\x1b[01;32m\x1b[KsendRobotStatusRequest\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.627276] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:43:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.627435] (move_relative_ur) StderrLine: {'line': b'   43 |         auto request = std::make_shared<\x1b[01;31m\x1b[Kur_dashboard_msgs\x1b[m\x1b[K::srv::GetProgramState::Request>();\n'}
+[3.627572] (move_relative_ur) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.627693] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:43:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.627810] (move_relative_ur) StderrLine: {'line': b'   43 |         auto request = std::\x1b[01;31m\x1b[Kmake_shared<ur_dashboard_msgs::srv::GetProgramState::Request>\x1b[m\x1b[K();\n'}
+[3.627925] (move_relative_ur) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.628159] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:43:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628298] (move_relative_ur) StderrLine: {'line': b'   43 | to request = \x1b[01;31m\x1b[Kstd::make_shared<ur_dashboard_msgs::srv::GetProgramState::Request>()\x1b[m\x1b[K;\n'}
+[3.628421] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.628553] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.628659] (move_relative_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[3.628761] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[3.628848] (move_relative_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:1\x1b[m\x1b[K:\n'}
+[3.628935] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.629034] (move_relative_ur) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.629136] (move_relative_ur) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.629239] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.629339] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:43:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.629459] (move_relative_ur) StderrLine: {'line': b'   43 | to request = \x1b[01;31m\x1b[Kstd::make_shared<ur_dashboard_msgs::srv::GetProgramState::Request>()\x1b[m\x1b[K;\n'}
+[3.629559] (move_relative_ur) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.629660] (move_relative_ur) StderrLine: {'line': b'\n'}
+[3.639559] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:46:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_status_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.639804] (move_relative_ur) StderrLine: {'line': b'   46 |         while (!\x1b[01;31m\x1b[Krobot_status_client_\x1b[m\x1b[K->wait_for_service(std::chrono::seconds(1))) {\n'}
+[3.639946] (move_relative_ur) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.651974] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:51:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_status_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.652244] (move_relative_ur) StderrLine: {'line': b'   51 |         auto future_result = \x1b[01;31m\x1b[Krobot_status_client_\x1b[m\x1b[K->async_send_request(request,\n'}
+[3.652381] (move_relative_ur) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.715781] (-) TimerEvent: {}
+[3.814324] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotMonitoringNode::\x1b[01;32m\x1b[KsendRobotStatusRequest\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.814610] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:68:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KURScriptRelativeMove\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.814759] (move_relative_ur) StderrLine: {'line': b'   68 |                 std::bind(&\x1b[01;31m\x1b[KURScriptRelativeMove\x1b[m\x1b[K::robotProgramState, this, std::placeholders::_1));\n'}
+[3.814885] (move_relative_ur) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.815908] (-) TimerEvent: {}
+[3.818073] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotMonitoringNode::\x1b[01;32m\x1b[KrobotProgramState\x1b[m\x1b[K(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.819807] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:77:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids comparison between pointer and integer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.820227] (move_relative_ur) StderrLine: {'line': b'   77 |             if(\x1b[01;31m\x1b[Kthis->safe_respones == "PAUSED"\x1b[m\x1b[K && safe_respones > 0)\n'}
+[3.820620] (move_relative_ur) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.845050] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotMonitoringNode::\x1b[01;32m\x1b[KsafetyModeResponse\x1b[m\x1b[K(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.845328] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:270:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kbreak\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.845492] (move_relative_ur) StderrLine: {'line': b'  270 |                 \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[3.845611] (move_relative_ur) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.845724] (move_relative_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:277:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kbreak\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.845833] (move_relative_ur) StderrLine: {'line': b'  277 |                 \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[3.845942] (move_relative_ur) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.916010] (-) TimerEvent: {}
+[4.016322] (-) TimerEvent: {}
+[4.116638] (-) TimerEvent: {}
+[4.216967] (-) TimerEvent: {}
+[4.317388] (-) TimerEvent: {}
+[4.417729] (-) TimerEvent: {}
+[4.518039] (-) TimerEvent: {}
+[4.618351] (-) TimerEvent: {}
+[4.718677] (-) TimerEvent: {}
+[4.818986] (-) TimerEvent: {}
+[4.919301] (-) TimerEvent: {}
+[5.019627] (-) TimerEvent: {}
+[5.119941] (-) TimerEvent: {}
+[5.220254] (-) TimerEvent: {}
+[5.320582] (-) TimerEvent: {}
+[5.420863] (-) TimerEvent: {}
+[5.521152] (-) TimerEvent: {}
+[5.621445] (-) TimerEvent: {}
+[5.721731] (-) TimerEvent: {}
+[5.822035] (-) TimerEvent: {}
+[5.922337] (-) TimerEvent: {}
+[6.022660] (-) TimerEvent: {}
+[6.122974] (-) TimerEvent: {}
+[6.223239] (-) TimerEvent: {}
+[6.312953] (move_relative_ur) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1\n'}
+[6.313764] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2\n'}
+[6.313981] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.323340] (-) TimerEvent: {}
+[6.423644] (-) TimerEvent: {}
+[6.523961] (-) TimerEvent: {}
+[6.624273] (-) TimerEvent: {}
+[6.724581] (-) TimerEvent: {}
+[6.824885] (-) TimerEvent: {}
+[6.925195] (-) TimerEvent: {}
+[7.012902] (move_relative_ur) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1\n'}
+[7.013312] (move_relative_ur) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2\n'}
+[7.013847] (move_relative_ur) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.018729] (move_relative_ur) CommandEnded: {'returncode': 2}
+[7.025500] (-) TimerEvent: {}
+[7.036845] (move_relative_ur) JobEnded: {'identifier': 'move_relative_ur', 'rc': 2}
+[7.047660] (-) EventReactorShutdown: {}

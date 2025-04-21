@@ -1,0 +1,79 @@
+[0.041s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.206s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.218s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.250s] [ 13%] Built target move_relative_ur__cpp
+[0.250s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.295s] [ 31%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.295s] [ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.297s] [ 42%] Built target move_relative_ur__rosidl_typesupport_c
+[0.300s] [ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.338s] [ 57%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.353s] [ 65%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.402s] [ 68%] Built target move_relative_ur
+[0.402s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.413s] [ 73%] Built target move_relative_node
+[0.461s] [ 76%] Built target move_relative_ur__py
+[0.521s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.565s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.567s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.573s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.659s] running egg_info
+[0.702s] writing move_relative_ur.egg-info/PKG-INFO
+[0.702s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.703s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.838s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.839s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.893s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.523s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrequestRobotMode[m[K()[m[K’:
+[3.523s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:55:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rclcpp::TimerBase, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp::TimerBase[m[K’ {aka ‘[01m[Kclass rclcpp::TimerBase[m[K’} has no member named ‘[01m[Kwait_for_service[m[K’
+[3.524s]    55 |         if (!robot_mode_timer_->[01;31m[Kwait_for_service[m[K(std::chrono::milliseconds(1))) {
+[3.524s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.540s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.541s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.541s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[3.541s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotModeResponse[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture)[m[K’:
+[3.541s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[3.541s]    79 |             RCLCPP_INFO(this->get_logger [01;31m[K"✅ 로봇 정상 동작 중."[m[K);
+[3.542s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.542s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.542s]    79 |             [01;36m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.542s]       |             [01;36m[K^~~~~~~~~~~[m[K
+[3.542s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.542s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.542s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.542s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.543s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.543s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.543s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.543s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.543s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.544s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[3.544s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[3.544s]    79 |             RCLCPP_INFO(this->get_logger [01;31m[K"✅ 로봇 정상 동작 중."[m[K);
+[3.544s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.544s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.544s]    79 |             [01;36m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.544s]       |             [01;36m[K^~~~~~~~~~~[m[K
+[3.545s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[3.545s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.545s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.546s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.546s]    79 |             [01;36m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.546s]       |             [01;36m[K^~~~~~~~~~~[m[K
+[3.546s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[3.546s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.546s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.547s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.547s]    79 |             [01;36m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.547s]       |             [01;36m[K^~~~~~~~~~~[m[K
+[3.547s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.547s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger "✅ 로봇 정상 동작 중.");
+[3.547s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.547s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrequestSafetyMode[m[K()[m[K’:
+[3.547s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:85:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rclcpp::TimerBase, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp::TimerBase[m[K’ {aka ‘[01m[Kclass rclcpp::TimerBase[m[K’} has no member named ‘[01m[Kwait_for_service[m[K’
+[3.547s]    85 |         if (!safety_mode_timer_->[01;31m[Kwait_for_service[m[K(std::chrono::milliseconds(1))) {
+[3.547s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.908s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[4.909s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[4.910s] gmake: *** [Makefile:146: all] Error 2
+[4.915s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

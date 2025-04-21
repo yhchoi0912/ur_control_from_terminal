@@ -1,0 +1,214 @@
+[0.049s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.170s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.196s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.215s] [ 15%] Built target move_relative_ur__rosidl_generator_c
+[0.235s] [ 18%] Built target move_relative_ur__cpp
+[0.259s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.262s] [ 34%] Built target move_relative_ur__rosidl_typesupport_c
+[0.263s] [ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.278s] [ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.279s] [ 57%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.285s] [ 65%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.332s] [ 65%] Built target move_relative_ur
+[0.341s] [ 71%] Built target move_relative_node
+[0.344s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.385s] [ 76%] Built target move_relative_ur__py
+[0.446s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.497s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.498s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.498s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.666s] running egg_info
+[0.718s] writing move_relative_ur.egg-info/PKG-INFO
+[0.719s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.719s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.859s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.860s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.914s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.268s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.268s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.269s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[3.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[3.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.271s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.271s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[3.271s] /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> > >[m[K’:
+[3.272s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K   required by substitution of ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >][m[K[m[K’
+[3.272s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:81:[m[K   required from here
+[3.272s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:405:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.272s]   405 |   using [01;31m[KRequest[m[K = typename ServiceT::Request;
+[3.272s]       |         [01;31m[K^~~~~~~[m[K
+[3.273s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:406:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.273s]   406 |   using [01;31m[KResponse[m[K = typename ServiceT::Response;
+[3.273s]       |         [01;31m[K^~~~~~~~[m[K
+[3.273s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:408:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.273s]   408 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+[3.273s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.273s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:409:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.273s]   409 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+[3.273s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.273s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:411:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.273s]   411 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+[3.274s]       |         [01;31m[K^~~~~~~[m[K
+[3.274s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:412:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.274s]   412 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+[3.274s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.274s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:414:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.274s]   414 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+[3.274s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.274s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:415:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.274s]   415 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+[3.275s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.275s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:417:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.275s]   417 |   using [01;31m[KFuture[m[K = std::future<SharedResponse>;
+[3.275s]       |         [01;31m[K^~~~~~[m[K
+[3.275s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:418:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.275s]   418 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+[3.275s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.275s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:419:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.275s]   419 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+[3.276s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.276s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:421:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.276s]   421 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+[3.276s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.276s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:422:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.276s]   422 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+[3.276s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.276s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:542:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.276s]   542 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+[3.276s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.277s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.277s]   672 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.277s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.277s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.277s]   703 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.277s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.277s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:832:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.277s]   832 |   using [01;31m[KCallbackTypeValueVariant[m[K = std::tuple<CallbackType, SharedFuture, Promise>;
+[3.277s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.277s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:833:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.278s]   833 |   using [01;31m[KCallbackWithRequestTypeValueVariant[m[K = std::tuple<
+[3.278s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.278s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:836:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.278s]   836 |   using [01;31m[KCallbackInfoVariant[m[K = std::variant<
+[3.278s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.278s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:857:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.278s]   857 |   [01;31m[Kget_and_erase_pending_request[m[K(int64_t request_number)
+[3.279s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.279s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:879:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >[m[K’
+[3.279s]   879 |   [01;31m[Kpending_requests_[m[K;
+[3.279s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.279s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[3.279s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMonitoringNode::create_client<ur_dashboard_msgs::msg::RobotMode>(const char [33], int, std::_Bind_helper<false, void (RobotMonitoringNode::*)(std::shared_ptr<ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> > >), RobotMonitoringNode*, const std::_Placeholder<1>&>::type)[m[K’
+[3.279s]    12 |         robot_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::msg::RobotMode>([m[K
+[3.279s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.280s]    13 | [01;31m[K            "/dashboard_client/get_robot_mode", 10,[m[K
+[3.280s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              
+[3.280s]    14 | [01;31m[K            std::bind(&RobotMonitoringNode::robotModeCallback, this, std::placeholders::_1))[m[K;
+[3.280s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.280s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[3.280s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.280s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K:
+[3.280s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:159:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> > > >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+[3.280s]   159 | [01;36m[KNode[m[K::create_client(
+[3.280s]       | [01;36m[K^~~~[m[K
+[3.281s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:161:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+[3.281s]   161 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+[3.281s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.281s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> >; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> > > >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+[3.281s]   143 | [01;36m[KNode[m[K::create_client(
+[3.281s]       | [01;36m[K^~~~[m[K
+[3.281s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:146:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::_Bind_helper<false, void (RobotMonitoringNode::*)(std::shared_ptr<ur_dashboard_msgs::msg::RobotMode_<std::allocator<void> > >), RobotMonitoringNode*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Krclcpp::CallbackGroup::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::CallbackGroup>[m[K’}
+[3.281s]   146 |   [01;36m[Krclcpp::CallbackGroup::SharedPtr group[m[K)
+[3.281s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.281s] /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> > >[m[K’:
+[3.282s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K   required by substitution of ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >][m[K[m[K’
+[3.282s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:20:83:[m[K   required from here
+[3.282s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:405:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.282s]   405 |   using [01;31m[KRequest[m[K = typename ServiceT::Request;
+[3.282s]       |         [01;31m[K^~~~~~~[m[K
+[3.282s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:406:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.282s]   406 |   using [01;31m[KResponse[m[K = typename ServiceT::Response;
+[3.282s]       |         [01;31m[K^~~~~~~~[m[K
+[3.282s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:408:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.282s]   408 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+[3.283s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.283s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:409:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.283s]   409 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+[3.283s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.283s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:411:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.283s]   411 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+[3.283s]       |         [01;31m[K^~~~~~~[m[K
+[3.283s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:412:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.283s]   412 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+[3.283s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.284s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:414:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.284s]   414 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+[3.284s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.284s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:415:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.284s]   415 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+[3.284s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.284s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:417:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.284s]   417 |   using [01;31m[KFuture[m[K = std::future<SharedResponse>;
+[3.284s]       |         [01;31m[K^~~~~~[m[K
+[3.284s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:418:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.285s]   418 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+[3.285s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.285s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:419:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.285s]   419 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+[3.285s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.285s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:421:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.285s]   421 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+[3.285s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.285s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:422:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.285s]   422 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+[3.286s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:542:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.286s]   542 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+[3.286s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.286s]   672 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.286s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.286s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.286s]   703 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.287s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.287s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:832:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.287s]   832 |   using [01;31m[KCallbackTypeValueVariant[m[K = std::tuple<CallbackType, SharedFuture, Promise>;
+[3.287s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.287s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:833:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.287s]   833 |   using [01;31m[KCallbackWithRequestTypeValueVariant[m[K = std::tuple<
+[3.287s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.287s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:836:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.287s]   836 |   using [01;31m[KCallbackInfoVariant[m[K = std::variant<
+[3.287s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.288s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:857:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.288s]   857 |   [01;31m[Kget_and_erase_pending_request[m[K(int64_t request_number)
+[3.288s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.288s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:879:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >[m[K’
+[3.288s]   879 |   [01;31m[Kpending_requests_[m[K;
+[3.288s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.288s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:20:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMonitoringNode::create_client<ur_dashboard_msgs::msg::SafetyMode>(const char [34], int, std::_Bind_helper<false, void (RobotMonitoringNode::*)(std::shared_ptr<ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> > >), RobotMonitoringNode*, const std::_Placeholder<1>&>::type)[m[K’
+[3.288s]    20 |         safety_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::msg::SafetyMode>([m[K
+[3.288s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.288s]    21 | [01;31m[K            "/dashboard_client/get_safety_mode", 10,[m[K
+[3.289s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                               
+[3.289s]    22 | [01;31m[K            std::bind(&RobotMonitoringNode::safetyModeCallback, this, std::placeholders::_1))[m[K;
+[3.289s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.289s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:159:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> > > >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+[3.289s]   159 | [01;36m[KNode[m[K::create_client(
+[3.289s]       | [01;36m[K^~~~[m[K
+[3.289s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:161:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+[3.290s]   161 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+[3.290s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.290s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> >; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> > > >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+[3.290s]   143 | [01;36m[KNode[m[K::create_client(
+[3.290s]       | [01;36m[K^~~~[m[K
+[3.290s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:146:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::_Bind_helper<false, void (RobotMonitoringNode::*)(std::shared_ptr<ur_dashboard_msgs::msg::SafetyMode_<std::allocator<void> > >), RobotMonitoringNode*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Krclcpp::CallbackGroup::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::CallbackGroup>[m[K’}
+[3.290s]   146 |   [01;36m[Krclcpp::CallbackGroup::SharedPtr group[m[K)
+[3.290s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.448s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[4.449s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[4.450s] gmake: *** [Makefile:146: all] Error 2
+[4.456s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

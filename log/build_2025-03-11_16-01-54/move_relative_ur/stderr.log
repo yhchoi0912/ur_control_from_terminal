@@ -1,0 +1,7 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotProgramState[m[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:82:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<std_srvs::srv::Trigger_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kprogram_running[m[K’
+   82 |             if(!state_response->[01;31m[Kprogram_running[m[K && safe_respones > 0)
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

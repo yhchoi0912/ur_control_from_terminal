@@ -1,0 +1,72 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:58:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |     bool [01;31m[KisRobotMoveRunning_[m[K == false;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                             [32m[K;[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:58:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K==[m[K’ token
+   58 |     bool isRobotMoveRunning_ [01;31m[K==[m[K false;
+      |                              [01;31m[K^~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:270:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  270 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:9:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    9 | class RobotMonitoringNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                                 [01;36m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ was not declared in this scope
+   13 |             [01;31m[Krobot_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetRobotMode>(
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ was not declared in this scope
+   18 |             [01;31m[Ksafety_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetSafetyMode>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_timer_[m[K’ was not declared in this scope
+   23 |             [01;31m[Krobot_mode_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:25:49:[m[K [01;31m[Kerror: [m[K‘[01m[KrequestRobotMode[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   25 |                 std::bind(&RobotMonitoringNode::[01;31m[KrequestRobotMode[m[K, this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_timer_[m[K’ was not declared in this scope
+   28 |             [01;31m[Ksafety_mode_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:30:49:[m[K [01;31m[Kerror: [m[K‘[01m[KrequestSafetyMode[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   30 |                 std::bind(&RobotMonitoringNode::[01;31m[KrequestSafetyMode[m[K, this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_sub_[m[K’ was not declared in this scope
+   34 |             [01;31m[Kjoint_state_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:36:49:[m[K [01;31m[Kerror: [m[K‘[01m[KjointStateCallback[m[K’ is not a member of ‘[01m[KRobotMonitoringNode[m[K’
+   36 |                 std::bind(&RobotMonitoringNode::[01;31m[KjointStateCallback[m[K, this, std::placeholders::_1));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+   39 |             [01;31m[Kerror_pub_[m[K = this->create_publisher<move_relative_ur::msg::ErrorMsg>("robot_monitoring", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kerror_t[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_node_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_timers_[m[K’?
+   42 |             [01;31m[Kfind_node_timer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Knode_timers_[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KcheckIfMoveNodeIsRunning[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:89:80:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   89 |     void jointStateCallback(const sensor_msgs::msg::JointState::SharedPtr msg) [01;31m[K{[m[K
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:132:61:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  132 |         void sendErrorMessage(const std::string &error_msg) [01;31m[K{[m[K
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:143:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  143 |         void requestRobotMode() [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:156:103:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  156 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture future) [01;31m[K{[m[K
+      |                                                                                                       [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:181:30:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  181 |     void requestSafetyMode() [01;31m[K{[m[K
+      |                              [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:195:105:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  195 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture future) [01;31m[K{[m[K
+      |                                                                                                         [01;31m[K^[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K At global scope:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:270:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  270 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

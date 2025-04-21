@@ -1,0 +1,38 @@
+[0.077s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsi/ws_moveit2/src/move_relative_ur -DCMAKE_INSTALL_PREFIX=/home/tsi/ws_moveit2/install/move_relative_ur
+[0.332s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.766s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.914s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.096s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.495s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.511s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.995s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.028s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.072s] -- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.226s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.291s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.535s] -- Configuring done (2.4s)
+[2.619s] -- Generating done (0.0s)
+[2.624s] -- Build files have been written to: /home/tsi/ws_moveit2/build/move_relative_ur
+[2.639s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsi/ws_moveit2/src/move_relative_ur -DCMAKE_INSTALL_PREFIX=/home/tsi/ws_moveit2/install/move_relative_ur
+[2.643s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[2.830s] [ 25%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[2.839s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[4.383s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+[4.383s]     6 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+[4.383s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.383s] compilation terminated.
+[4.389s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[4.390s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+[4.390s]     5 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+[4.390s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.391s] compilation terminated.
+[4.391s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_relative_node.dir/all] Error 2
+[4.391s] gmake[1]: *** Waiting for unfinished jobs....
+[4.395s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[4.396s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[4.396s] gmake: *** [Makefile:146: all] Error 2
+[4.401s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

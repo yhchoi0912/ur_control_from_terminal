@@ -1,0 +1,11 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_sub_[m[K’ was not declared in this scope
+   34 |         [01;31m[Kjoint_state_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KjointStateCallback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:58:30:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+   58 |         if ([01;31m[KsendMagFlag == 1 && isStopped[m[K = false)
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

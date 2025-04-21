@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tsi/ws_moveit2/build/move_relative_ur/move_relative_node" "/home/tsi/ws_moveit2/build/move_relative_ur/robot_monitoring_node" "TARGETS" "move_relative_node" "robot_monitoring_node" "DESTINATION" "lib/move_relative_ur")

@@ -1,0 +1,59 @@
+[0.054s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.199s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.230s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.250s] [ 15%] Built target move_relative_ur__rosidl_generator_c
+[0.256s] [ 18%] Built target move_relative_ur__cpp
+[0.298s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.298s] [ 34%] Built target move_relative_ur__rosidl_typesupport_c
+[0.305s] [ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.306s] [ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.306s] [ 65%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.309s] [ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.347s] [ 65%] Built target move_relative_ur
+[0.360s] [ 71%] Built target move_relative_node
+[0.364s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.382s] [ 76%] Built target move_relative_ur__py
+[0.446s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.488s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.492s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.492s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.689s] running egg_info
+[0.747s] writing move_relative_ur.egg-info/PKG-INFO
+[0.748s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.748s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.888s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.889s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.951s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.145s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.145s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.145s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[3.145s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotModeResponse[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture)[m[K’:
+[3.146s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’
+[3.146s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+[3.146s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.146s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.146s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.147s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.147s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:144:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.147s]   144 |   [01;36m[Kget_logger[m[K() const;
+[3.147s]       |   [01;36m[K^~~~~~~~~~[m[K
+[3.147s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.148s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+[3.148s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.148s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+[3.148s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.149s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.149s]    79 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "✅ 로봇 정상 동작 중.");
+[3.149s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.149s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[3.149s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:31:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[3.150s]    79 |             RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "✅ 로봇 정상 동작 중.");
+[3.150s]       |                               [01;31m[K^[m[K
+[3.150s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:79:31:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::[01;32m[Kget_logger[m[K() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[3.150s]    79 |             RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "✅ 로봇 정상 동작 중.");
+[3.150s]       |                               [01;31m[K^[m[K
+[4.538s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[4.539s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[4.539s] gmake: *** [Makefile:146: all] Error 2
+[4.546s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

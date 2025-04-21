@@ -1,0 +1,53 @@
+[0.042s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsi/ws_moveit2/src/move_relative_ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tsi/ws_moveit2/install/move_relative_ur
+[0.157s] -- The C compiler identification is GNU 13.3.0
+[0.272s] -- The CXX compiler identification is GNU 13.3.0
+[0.333s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.640s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.947s] -- Detecting CXX compile features
+[0.948s] -- Detecting CXX compile features - done
+[0.959s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.304s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.615s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.768s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.810s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.183s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.198s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.499s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.541s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.759s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.808s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.834s] -- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.982s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.048s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.237s] -- Configuring done (3.2s)
+[3.264s] -- Generating done (0.0s)
+[3.270s] -- Build files have been written to: /home/tsi/ws_moveit2/build/move_relative_ur
+[3.288s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsi/ws_moveit2/src/move_relative_ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tsi/ws_moveit2/install/move_relative_ur
+[3.290s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[3.442s] [ 25%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[3.445s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[3.835s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+[3.836s]     6 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+[3.836s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.836s] compilation terminated.
+[3.839s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[3.840s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_relative_node.dir/all] Error 2
+[3.840s] gmake[1]: *** Waiting for unfinished jobs....
+[3.852s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+[3.852s]     5 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+[3.852s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.852s] compilation terminated.
+[3.855s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[3.856s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[3.856s] gmake: *** [Makefile:146: all] Error 2
+[3.861s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

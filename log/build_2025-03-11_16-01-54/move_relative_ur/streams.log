@@ -1,0 +1,34 @@
+[0.035s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.180s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.198s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.227s] [  5%] Built target move_relative_ur__cpp
+[0.228s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.277s] [ 26%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.277s] [ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.277s] [ 55%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.277s] [ 57%] Built target move_relative_ur__rosidl_typesupport_c
+[0.277s] [ 55%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.278s] [ 65%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.316s] [ 65%] Built target move_relative_ur
+[0.327s] [ 71%] Built target move_relative_node
+[0.333s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.353s] [ 76%] Built target move_relative_ur__py
+[0.405s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.444s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.456s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.464s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.653s] running egg_info
+[0.699s] writing move_relative_ur.egg-info/PKG-INFO
+[0.700s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.700s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.839s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.908s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.283s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotProgramState[m[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture)[m[K’:
+[3.283s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:82:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<std_srvs::srv::Trigger_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kprogram_running[m[K’
+[3.284s]    82 |             if(!state_response->[01;31m[Kprogram_running[m[K && safe_respones > 0)
+[3.284s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.537s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[6.543s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[6.545s] gmake: *** [Makefile:146: all] Error 2
+[6.546s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

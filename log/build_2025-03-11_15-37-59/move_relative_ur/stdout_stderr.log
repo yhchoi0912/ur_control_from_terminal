@@ -1,0 +1,69 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/tsi/ws_moveit2/build/move_relative_ur
+[  2%] Built target move_relative_ur__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[  5%] Built target move_relative_ur__cpp
+[ 18%] Built target move_relative_ur__rosidl_generator_c
+[ 26%] Built target move_relative_ur__rosidl_typesupport_c
+[ 36%] Built target move_relative_ur__rosidl_typesupport_cpp
+[ 50%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[ 65%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[ 68%] Built target move_relative_ur
+[ 68%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[ 73%] Built target move_relative_ur__py
+[ 78%] Built target move_relative_ur__rosidl_generator_py
+[ 84%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[ 89%] Built target move_relative_ur_s__rosidl_typesupport_c
+[ 94%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+running egg_info
+writing move_relative_ur.egg-info/PKG-INFO
+writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+writing top-level names to move_relative_ur.egg-info/top_level.txt
+reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_move_relative_ur_egg
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrobotProgramState[m[K(rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:82:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<std_srvs::srv::Trigger_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_srvs::srv::Trigger_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstate[m[K’
+   82 |             if(state_response->[01;31m[Kstate[m[K.state == "PAUSED" && safe_respones > 0)
+      |                                [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 97%] [32m[1mLinking CXX executable move_relative_node[0m
+[ 97%] Built target move_relative_node
+gmake: *** [Makefile:146: all] Error 2

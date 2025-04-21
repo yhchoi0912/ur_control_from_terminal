@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "move_relative_ur/msg/ErrorMsg",
+      "fields": [
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "move_relative_ur/msg/ErrorMsg",
+      "hash_string": "RIHS01_072f6551865359da11e0c62354c11feb52c6b6d18cf2b5f0d55d8c32501c7946"
+    }
+  ]
+}

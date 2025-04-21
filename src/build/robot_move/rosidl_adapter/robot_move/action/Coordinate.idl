@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_move/action/Coordinate.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module robot_move {
+  module action {
+    struct Coordinate_Goal {
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Quaternion orientation;
+    };
+    struct Coordinate_Result {
+      float progress;
+    };
+    struct Coordinate_Feedback {
+      boolean success;
+    };
+  };
+};

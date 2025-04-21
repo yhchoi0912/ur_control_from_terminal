@@ -1,0 +1,6 @@
+{
+  "package_name": "move_relative_ur",
+  "non_idl_tuples": [
+    "/home/tsi/ws_moveit2/src/move_relative_ur:msg/ErrorMsg.msg"
+  ]
+}

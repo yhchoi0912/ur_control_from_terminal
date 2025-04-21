@@ -1,0 +1,99 @@
+[0.031s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.163s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.184s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.205s] [ 15%] Built target move_relative_ur__rosidl_generator_c
+[0.217s] [ 18%] Built target move_relative_ur__cpp
+[0.257s] [ 26%] Built target move_relative_ur__rosidl_typesupport_c
+[0.260s] [ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.262s] [ 47%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.262s] [ 50%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.262s] [ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.268s] [ 65%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.310s] [ 65%] Built target move_relative_ur
+[0.326s] [ 68%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[0.335s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.348s] [ 73%] Built target move_relative_ur__py
+[0.389s] [ 78%] Built target move_relative_ur__rosidl_generator_py
+[0.433s] [ 84%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.441s] [ 89%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.445s] [ 94%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.612s] running egg_info
+[0.658s] writing move_relative_ur.egg-info/PKG-INFO
+[0.659s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.659s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.792s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.793s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.859s] [ 94%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.271s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[3.272s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:22:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMonitoringNode::create_publisher<std_msgs::msg::String>(const char [17], int, std::_Bind_helper<false, void (RobotMonitoringNode::*)(const std::__cxx11::basic_string<char>&), RobotMonitoringNode*, const std::_Placeholder<1>&>::type)[m[K’
+[3.272s]    22 |         error_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("robot_monitoring", 10[m[K
+[3.273s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.273s]    23 | [01;31m[K        , std::bind(&RobotMonitoringNode::sendErrorMessage, this, std::placeholders::_1))[m[K;
+[3.273s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.274s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.274s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.274s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.275s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[3.275s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.275s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[3.276s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.277s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.277s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:22:67:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (RobotMonitoringNode::*)(const std::__cxx11::basic_string<char>&), RobotMonitoringNode*, const std::_Placeholder<1>&>::type[m[K’ is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+[3.278s]    22 |         error_pub_ = [01;36m[Kthis->create_publisher<std_msgs::msg::String>("robot_monitoring", 10[m[K
+[3.278s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.279s]    23 | [01;36m[K        , std::bind(&RobotMonitoringNode::sendErrorMessage, this, std::placeholders::_1))[m[K;
+[3.279s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.279s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.280s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.280s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:1[m[K:
+[3.280s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.281s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.281s]   120 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "move 노드 종료??");
+[3.281s]       |                 [01;31m[K^~~~[m[K
+[3.282s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.282s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.282s]   120 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "move 노드 종료??");
+[3.283s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.283s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.283s]   120 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "move 노드 종료??");
+[3.284s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.284s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.284s]   120 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "move 노드 종료??");
+[3.285s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.285s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[3.285s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.286s]   120 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "move 노드 종료??");
+[3.286s]       |                 [01;31m[K^~~~[m[K
+[3.286s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:120:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.287s]   120 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "move 노드 종료??");
+[3.287s]       |                 [01;31m[K^~~~[m[K
+[3.287s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.288s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[3.288s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.288s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.289s]    71 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.289s]       |                 [01;31m[K^~~~[m[K
+[3.290s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.290s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.290s]    71 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.291s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.291s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.291s]    71 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.292s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.292s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.292s]    71 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.292s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.292s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[3.293s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.293s]    71 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.293s]       |                 [01;31m[K^~~~[m[K
+[3.293s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:71:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.293s]    71 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "monitoring 노드가 그냥 종료되는건가??");
+[3.294s]       |                 [01;31m[K^~~~[m[K
+[5.803s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[5.804s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+[5.804s] gmake[1]: *** Waiting for unfinished jobs....
+[6.485s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[6.485s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[6.486s] gmake: *** [Makefile:146: all] Error 2
+[6.492s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

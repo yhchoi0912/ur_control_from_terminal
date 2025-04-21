@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tsi/ws_moveit2/build/move_relative_ur/rosidl_generator_py/move_relative_ur/move_relative_ur_s__rosidl_typesupport_c.so" "TARGETS" "move_relative_ur_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/move_relative_ur")

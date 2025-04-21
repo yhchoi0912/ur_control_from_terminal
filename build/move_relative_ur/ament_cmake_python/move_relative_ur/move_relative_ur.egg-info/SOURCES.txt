@@ -1,0 +1,8 @@
+setup.py
+move_relative_ur/__init__.py
+move_relative_ur.egg-info/PKG-INFO
+move_relative_ur.egg-info/SOURCES.txt
+move_relative_ur.egg-info/dependency_links.txt
+move_relative_ur.egg-info/top_level.txt
+move_relative_ur/msg/__init__.py
+move_relative_ur/msg/_error_msg.py

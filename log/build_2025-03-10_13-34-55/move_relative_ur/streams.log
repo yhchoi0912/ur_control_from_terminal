@@ -1,0 +1,359 @@
+[0.028s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.154s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.192s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.193s] [  5%] Built target move_relative_ur__cpp
+[0.219s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.262s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.263s] [ 34%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.267s] [ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.267s] [ 50%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.269s] [ 57%] Built target move_relative_ur__rosidl_typesupport_c
+[0.270s] [ 65%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.323s] [ 65%] Built target move_relative_ur
+[0.325s] [ 71%] Built target move_relative_node
+[0.335s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.368s] [ 76%] Built target move_relative_ur__py
+[0.426s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.468s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.471s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.482s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.627s] running egg_info
+[0.674s] writing move_relative_ur.egg-info/PKG-INFO
+[0.674s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.674s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.802s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.866s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.101s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.102s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>::SharedFuture future) {
+[3.102s]       |                                                              [01;31m[K^~~[m[K
+[3.102s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[3.103s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[3.104s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.104s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:1[m[K:
+[3.105s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.105s]    30 | namespace [01;36m[Ksrv[m[K
+[3.106s]       |           [01;36m[K^~~[m[K
+[3.106s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.107s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode[01;31m[K>[m[K::SharedFuture future) {
+[3.107s]       |                                                                               [01;31m[K^[m[K
+[3.107s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.108s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>::SharedFuture future) {
+[3.108s]       |                                                              [01;31m[K^~~[m[K
+[3.108s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.108s]    30 | namespace [01;36m[Ksrv[m[K
+[3.109s]       |           [01;36m[K^~~[m[K
+[3.109s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.109s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode[01;31m[K>[m[K::SharedFuture future) {
+[3.109s]       |                                                                               [01;31m[K^[m[K
+[3.109s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.110s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>::SharedFuture future) {
+[3.110s]       |                                                              [01;31m[K^~~[m[K
+[3.110s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.111s]    30 | namespace [01;36m[Ksrv[m[K
+[3.111s]       |           [01;36m[K^~~[m[K
+[3.111s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.111s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode[01;31m[K>[m[K::SharedFuture future) {
+[3.111s]       |                                                                               [01;31m[K^[m[K
+[3.112s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:28:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.112s]    67 |     void robotModeResponse([01;31m[Krclcpp[m[K::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture future) {
+[3.112s]       |                            [01;31m[K^~~~~~[m[K
+[3.112s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kur_dashboard_msgs::srv[m[K’ has not been declared
+[3.112s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>::SharedFuture future) {
+[3.113s]       |                                                              [01;31m[K^~~[m[K
+[3.113s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:95:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfuture[m[K’
+[3.113s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture [01;31m[Kfuture[m[K) {
+[3.113s]       |                                                                                               [01;31m[K^~~~~~[m[K
+[3.113s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:94:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kfuture[m[K’
+[3.114s]    67 |     void robotModeResponse[34m[K([m[Krclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture[01;31m[K [m[K[32m[Kfuture[m[K) {
+[3.114s]       |                           [34m[K~[m[K                                                                  [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[3.114s]       |                                                                                              [32m[K)[m[K
+[3.114s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.114s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::[01;31m[KSharedFuture[m[K future) {
+[3.115s]       |                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.115s]       |                                                                                              [32m[K;[m[K
+[3.115s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:67:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ does not name a type
+[3.115s]    67 |     void robotModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedFuture [01;31m[Kfuture[m[K) {
+[3.115s]       |                                                                                               [01;31m[K^~~~~~[m[K
+[3.116s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.116s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>::SharedFuture future) {
+[3.116s]       |                                                               [01;31m[K^~~[m[K
+[3.116s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.116s]    30 | namespace [01;36m[Ksrv[m[K
+[3.117s]       |           [01;36m[K^~~[m[K
+[3.117s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.117s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode[01;31m[K>[m[K::SharedFuture future) {
+[3.117s]       |                                                                                 [01;31m[K^[m[K
+[3.118s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.118s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>::SharedFuture future) {
+[3.118s]       |                                                               [01;31m[K^~~[m[K
+[3.118s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.119s]    30 | namespace [01;36m[Ksrv[m[K
+[3.119s]       |           [01;36m[K^~~[m[K
+[3.119s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.119s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode[01;31m[K>[m[K::SharedFuture future) {
+[3.120s]       |                                                                                 [01;31m[K^[m[K
+[3.120s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.120s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>::SharedFuture future) {
+[3.120s]       |                                                               [01;31m[K^~~[m[K
+[3.121s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.121s]    30 | namespace [01;36m[Ksrv[m[K
+[3.121s]       |           [01;36m[K^~~[m[K
+[3.121s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.122s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode[01;31m[K>[m[K::SharedFuture future) {
+[3.122s]       |                                                                                 [01;31m[K^[m[K
+[3.122s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:29:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.122s]    98 |     void safetyModeResponse([01;31m[Krclcpp[m[K::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture future) {
+[3.123s]       |                             [01;31m[K^~~~~~[m[K
+[3.123s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kur_dashboard_msgs::srv[m[K’ has not been declared
+[3.123s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>::SharedFuture future) {
+[3.123s]       |                                                               [01;31m[K^~~[m[K
+[3.124s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:97:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfuture[m[K’
+[3.124s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture [01;31m[Kfuture[m[K) {
+[3.124s]       |                                                                                                 [01;31m[K^~~~~~[m[K
+[3.124s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:96:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kfuture[m[K’
+[3.125s]    98 |     void safetyModeResponse[34m[K([m[Krclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture[01;31m[K [m[K[32m[Kfuture[m[K) {
+[3.125s]       |                            [34m[K~[m[K                                                                   [01;31m[K^[m[K[32m[K~~~~~~[m[K
+[3.125s]       |                                                                                                [32m[K)[m[K
+[3.125s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:84:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.126s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::[01;31m[KSharedFuture[m[K future) {
+[3.126s]       |                                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.126s]       |                                                                                                [32m[K;[m[K
+[3.127s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:98:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ does not name a type
+[3.127s]    98 |     void safetyModeResponse(rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedFuture [01;31m[Kfuture[m[K) {
+[3.127s]       |                                                                                                 [01;31m[K^~~~~~[m[K
+[3.127s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:152:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.127s]   152 |     rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>::SharedPtr robot_mode_sub_;
+[3.127s]       |                                       [01;31m[K^~~[m[K
+[3.128s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.128s]    30 | namespace [01;36m[Ksrv[m[K
+[3.128s]       |           [01;36m[K^~~[m[K
+[3.128s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:152:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.128s]   152 |     rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode[01;31m[K>[m[K::SharedPtr robot_mode_sub_;
+[3.128s]       |                                                        [01;31m[K^[m[K
+[3.129s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:152:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.129s]   152 |     rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::[01;31m[KSharedPtr[m[K robot_mode_sub_;
+[3.129s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[3.129s]       |                                                                    [32m[K;[m[K
+[3.129s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:152:69:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ does not name a type
+[3.129s]   152 |     rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::SharedPtr [01;31m[Krobot_mode_sub_[m[K;
+[3.130s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.130s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:153:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.130s]   153 |     rclcpp::Client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>::SharedPtr safety_mode_sub_;
+[3.130s]       |                                       [01;31m[K^~~[m[K
+[3.130s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.130s]    30 | namespace [01;36m[Ksrv[m[K
+[3.131s]       |           [01;36m[K^~~[m[K
+[3.131s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:153:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.131s]   153 |     rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode[01;31m[K>[m[K::SharedPtr safety_mode_sub_;
+[3.131s]       |                                                         [01;31m[K^[m[K
+[3.131s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:153:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.131s]   153 |     rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::[01;31m[KSharedPtr[m[K safety_mode_sub_;
+[3.131s]       |                                                            [01;31m[K^~~~~~~~~[m[K
+[3.132s]       |                                                                     [32m[K;[m[K
+[3.132s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:153:60:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint RobotMonitoringNode::SharedPtr[m[K’
+[3.132s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:152:59:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint RobotMonitoringNode::SharedPtr[m[K’
+[3.132s]   152 |     rclcpp::Client<ur_dashboard_msgs::srv::GetRobotMode>::[01;36m[KSharedPtr[m[K robot_mode_sub_;
+[3.132s]       |                                                           [01;36m[K^~~~~~~~~[m[K
+[3.132s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:153:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ does not name a type
+[3.133s]   153 |     rclcpp::Client<ur_dashboard_msgs::srv::GetSafetyMode>::SharedPtr [01;31m[Ksafety_mode_sub_[m[K;
+[3.133s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.137s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[3.137s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_sub_[m[K’ was not declared in this scope
+[3.137s]    12 |         [01;31m[Krobot_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetRobotMode>(
+[3.137s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.138s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.138s]    12 |         robot_mode_sub_ = this->create_client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode>(
+[3.138s]       |                                                                  [01;31m[K^~~[m[K
+[3.138s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.138s]    30 | namespace [01;36m[Ksrv[m[K
+[3.138s]       |           [01;36m[K^~~[m[K
+[3.138s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.138s]    12 |         robot_mode_sub_ = this->[01;31m[Kcreate_client<ur_dashboard_msgs::srv::GetRobotMode>[m[K(
+[3.139s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.139s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMonitoringNode::create_client<<expression error> >(const char [33], int)[m[K’
+[3.139s]    12 |         robot_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetRobotMode>([m[K
+[3.139s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.139s]    13 | [01;31m[K            "/dashboard_client/get_robot_mode", 10)[m[K;//,
+[3.139s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                 
+[3.139s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.139s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.139s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.139s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.140s]   271 |   [01;36m[Kcreate_client[m[K(
+[3.140s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.140s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.140s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.140s]    12 |         robot_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetRobotMode>([m[K
+[3.140s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.140s]    13 | [01;31m[K            "/dashboard_client/get_robot_mode", 10)[m[K;//,
+[3.140s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                 
+[3.140s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.140s]   285 |   [01;36m[Kcreate_client[m[K(
+[3.141s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.141s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.141s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:12:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.141s]    12 |         robot_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetRobotMode>([m[K
+[3.141s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.141s]    13 | [01;31m[K            "/dashboard_client/get_robot_mode", 10)[m[K;//,
+[3.141s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                 
+[3.150s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_sub_[m[K’ was not declared in this scope
+[3.150s]    17 |         [01;31m[Ksafety_mode_sub_[m[K = this->create_client<ur_dashboard_msgs::srv::GetSafetyMode>(
+[3.150s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.150s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.151s]    17 |         safety_mode_sub_ = this->create_client<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode>(
+[3.151s]       |                                                                   [01;31m[K^~~[m[K
+[3.151s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.151s]    30 | namespace [01;36m[Ksrv[m[K
+[3.151s]       |           [01;36m[K^~~[m[K
+[3.151s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:34:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.151s]    17 |         safety_mode_sub_ = this->[01;31m[Kcreate_client<ur_dashboard_msgs::srv::GetSafetyMode>[m[K(
+[3.151s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.152s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotMonitoringNode::create_client<<expression error> >(const char [34], int)[m[K’
+[3.152s]    17 |         safety_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetSafetyMode>([m[K
+[3.152s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.152s]    18 | [01;31m[K            "/dashboard_client/get_safety_mode", 10)[m[K;//,
+[3.152s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                  
+[3.152s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.152s]   271 |   [01;36m[Kcreate_client[m[K(
+[3.152s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.152s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.152s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.153s]    17 |         safety_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetSafetyMode>([m[K
+[3.153s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.153s]    18 | [01;31m[K            "/dashboard_client/get_safety_mode", 10)[m[K;//,
+[3.153s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                  
+[3.153s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.153s]   285 |   [01;36m[Kcreate_client[m[K(
+[3.153s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.153s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.153s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:17:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.153s]    17 |         safety_mode_sub_ = [01;31m[Kthis->create_client<ur_dashboard_msgs::srv::GetSafetyMode>([m[K
+[3.154s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.154s]    18 | [01;31m[K            "/dashboard_client/get_safety_mode", 10)[m[K;//,
+[3.154s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                  
+[3.157s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.157s]    22 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[3.157s]       |         [01;31m[K^~~~~~[m[K
+[3.158s]       |         [32m[Ktimer_t[m[K
+[3.158s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:23:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::chrono::duration<long int>::duration(double)[m[K’
+[3.158s]    23 |             std::chrono::seconds(0.1[01;31m[K)[m[K,
+[3.158s]       |                                     [01;31m[K^[m[K
+[3.158s] In file included from [01m[K/usr/include/c++/13/chrono:41[m[K,
+[3.158s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:18[m[K,
+[3.158s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[3.159s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[3.159s] [01m[K/usr/include/c++/13/bits/chrono.h:581:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const std::chrono::duration<_Rep, _Period>&) [35m[K[with _Period2 = _Rep2; <template-parameter-2-3> = _Period2; _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.159s]   581 |           constexpr [01;36m[Kduration[m[K(const duration<_Rep2, _Period2>& __d)
+[3.159s]       |                     [01;36m[K^~~~~~~~[m[K
+[3.159s] [01m[K/usr/include/c++/13/bits/chrono.h:581:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.159s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:23:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+[3.159s]    23 |             std::chrono::seconds(0.1[01;36m[K)[m[K,
+[3.159s]       |                                     [01;36m[K^[m[K
+[3.159s] [01m[K/usr/include/c++/13/bits/chrono.h:573:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const _Rep2&) [35m[K[with <template-parameter-2-2> = _Rep2; _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.159s]   573 |           constexpr explicit [01;36m[Kduration[m[K(const _Rep2& __rep)
+[3.160s]       |                              [01;36m[K^~~~~~~~[m[K
+[3.160s] [01m[K/usr/include/c++/13/bits/chrono.h:573:30:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.160s] In file included from [01m[K/usr/include/c++/13/bits/move.h:37[m[K,
+[3.160s]                  from [01m[K/usr/include/c++/13/bits/new_allocator.h:36[m[K,
+[3.160s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33[m[K,
+[3.160s]                  from [01m[K/usr/include/c++/13/bits/allocator.h:46[m[K,
+[3.160s]                  from [01m[K/usr/include/c++/13/memory:65[m[K,
+[3.160s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[3.160s] /usr/include/c++/13/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using std::__enable_if_t = typename std::enable_if::type [35m[K[with bool _Cond = false; _Tp = void][m[K[m[K’:
+[3.160s] [01m[K/usr/include/c++/13/type_traits:2224:11:[m[K   required by substitution of ‘[01m[Ktemplate<class ... _Cond> using std::_Require = std::__enable_if_t<std::__and_<_Bn>::value> [35m[K[with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}][m[K[m[K’
+[3.161s] [01m[K/usr/include/c++/13/bits/chrono.h:570:27:[m[K   required from here
+[3.161s] [01m[K/usr/include/c++/13/type_traits:116:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[3.161s]   116 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[3.161s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[3.161s] [01m[K/usr/include/c++/13/bits/chrono.h:566:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const std::chrono::duration<_Rep, _Period>&) [35m[K[with _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.161s]   566 |         [01;36m[Kduration[m[K(const duration&) = default;
+[3.161s]       |         [01;36m[K^~~~~~~~[m[K
+[3.161s] [01m[K/usr/include/c++/13/bits/chrono.h:566:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::chrono::duration<long int>&[m[K’
+[3.161s]   566 |         duration([01;36m[Kconst duration&[m[K) = default;
+[3.161s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.162s] [01m[K/usr/include/c++/13/bits/chrono.h:564:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K() [35m[K[with _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.162s]   564 |         constexpr [01;36m[Kduration[m[K() = default;
+[3.162s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.162s] [01m[K/usr/include/c++/13/bits/chrono.h:564:19:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.163s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:28:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::chrono::duration<long int>::duration(double)[m[K’
+[3.163s]    28 |             std::chrono::seconds(0.1[01;31m[K)[m[K,
+[3.163s]       |                                     [01;31m[K^[m[K
+[3.163s] [01m[K/usr/include/c++/13/bits/chrono.h:581:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const std::chrono::duration<_Rep, _Period>&) [35m[K[with _Period2 = _Rep2; <template-parameter-2-3> = _Period2; _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.163s]   581 |           constexpr [01;36m[Kduration[m[K(const duration<_Rep2, _Period2>& __d)
+[3.163s]       |                     [01;36m[K^~~~~~~~[m[K
+[3.164s] [01m[K/usr/include/c++/13/bits/chrono.h:581:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.164s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:28:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+[3.164s]    28 |             std::chrono::seconds(0.1[01;36m[K)[m[K,
+[3.164s]       |                                     [01;36m[K^[m[K
+[3.164s] [01m[K/usr/include/c++/13/bits/chrono.h:573:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const _Rep2&) [35m[K[with <template-parameter-2-2> = _Rep2; _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.164s]   573 |           constexpr explicit [01;36m[Kduration[m[K(const _Rep2& __rep)
+[3.164s]       |                              [01;36m[K^~~~~~~~[m[K
+[3.164s] [01m[K/usr/include/c++/13/bits/chrono.h:573:30:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.164s] [01m[K/usr/include/c++/13/bits/chrono.h:566:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K(const std::chrono::duration<_Rep, _Period>&) [35m[K[with _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.164s]   566 |         [01;36m[Kduration[m[K(const duration&) = default;
+[3.165s]       |         [01;36m[K^~~~~~~~[m[K
+[3.165s] [01m[K/usr/include/c++/13/bits/chrono.h:566:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::chrono::duration<long int>&[m[K’
+[3.165s]   566 |         duration([01;36m[Kconst duration&[m[K) = default;
+[3.165s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.165s] [01m[K/usr/include/c++/13/bits/chrono.h:564:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::chrono::duration<_Rep, _Period>::[01;32m[Kduration[m[K() [35m[K[with _Rep = long int; _Period = std::ratio<1>][m[K[m[K’
+[3.165s]   564 |         constexpr [01;36m[Kduration[m[K() = default;
+[3.165s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.165s] [01m[K/usr/include/c++/13/bits/chrono.h:564:19:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.180s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrequestRobotMode[m[K()[m[K’:
+[3.180s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:55:14:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_client_[m[K’ was not declared in this scope
+[3.180s]    55 |         if (![01;31m[Krobot_mode_client_[m[K->wait_for_service(std::chrono::seconds(1))) {
+[3.181s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.181s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:60:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.182s]    60 |         auto request = std::make_shared<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetRobotMode::Request>();
+[3.182s]       |                                                            [01;31m[K^~~[m[K
+[3.182s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.182s]    30 | namespace [01;36m[Ksrv[m[K
+[3.182s]       |           [01;36m[K^~~[m[K
+[3.182s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:60:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.182s]    60 |         auto request = std::[01;31m[Kmake_shared<ur_dashboard_msgs::srv::GetRobotMode::Request>[m[K();
+[3.182s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.182s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:60:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.182s]    60 |         auto request = [01;31m[Kstd::make_shared<ur_dashboard_msgs::srv::GetRobotMode::Request>()[m[K;
+[3.183s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.183s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K:
+[3.183s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[3.183s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.183s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.183s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.183s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:60:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.183s]    60 |         auto request = [01;31m[Kstd::make_shared<ur_dashboard_msgs::srv::GetRobotMode::Request>()[m[K;
+[3.183s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.194s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_mode_client_[m[K’ was not declared in this scope
+[3.194s]    62 |         auto future = [01;31m[Krobot_mode_client_[m[K->async_send_request(
+[3.194s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.212s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KrequestSafetyMode[m[K()[m[K’:
+[3.212s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:85:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_client_[m[K’ was not declared in this scope
+[3.212s]    85 |         if (![01;31m[Ksafety_mode_client_[m[K->wait_for_service(std::chrono::seconds(1))) {
+[3.212s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.214s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:90:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kur_dashboard_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[3.214s]    90 |         auto request = std::make_shared<ur_dashboard_msgs::[01;31m[Ksrv[m[K::GetSafetyMode::Request>();
+[3.214s]       |                                                            [01;31m[K^~~[m[K
+[3.214s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[3.214s]    30 | namespace [01;36m[Ksrv[m[K
+[3.214s]       |           [01;36m[K^~~[m[K
+[3.214s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:90:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.214s]    90 |         auto request = std::[01;31m[Kmake_shared<ur_dashboard_msgs::srv::GetSafetyMode::Request>[m[K();
+[3.214s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.214s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:90:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.215s]    90 |         auto request = [01;31m[Kstd::make_shared<ur_dashboard_msgs::srv::GetSafetyMode::Request>()[m[K;
+[3.215s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.215s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[3.215s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.215s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.215s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.215s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:90:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.215s]    90 |         auto request = [01;31m[Kstd::make_shared<ur_dashboard_msgs::srv::GetSafetyMode::Request>()[m[K;
+[3.215s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.229s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:92:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksafety_mode_client_[m[K’ was not declared in this scope
+[3.229s]    92 |         auto future = [01;31m[Ksafety_mode_client_[m[K->async_send_request(
+[3.229s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.274s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[4.275s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[4.276s] gmake: *** [Makefile:146: all] Error 2
+[4.279s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

@@ -1,0 +1,7 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In destructor ‘[01m[Kvirtual URScriptRelativeMove::[01;32m[K~URScriptRelativeMove[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_thread_[m[K’ was not declared in this scope
+   35 |         if ([01;31m[Kinput_thread_[m[K.joinable()) {
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

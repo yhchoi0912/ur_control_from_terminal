@@ -1,0 +1,14 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+    6 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmove_relative_ur/msg/error_msg.hpp: No such file or directory
+    5 | #include [01;31m[K"move_relative_ur/msg/error_msg.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/move_relative_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

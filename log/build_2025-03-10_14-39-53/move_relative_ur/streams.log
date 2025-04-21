@@ -1,0 +1,71 @@
+[0.030s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.105s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.161s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.322s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.390s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.781s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.798s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.818s] -- Found ur_dashboard_msgs: 3.0.2 (/home/tsi/workspace/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.943s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.985s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.999s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.447s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.958s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.358s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.408s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.432s] -- Configured cppcheck include dirs: 
+[2.432s] -- Configured cppcheck exclude dirs and/or files: 
+[2.433s] -- Added test 'lint_cmake' to check CMake code style
+[2.434s] -- Added test 'uncrustify' to check C / C++ code style
+[2.434s] -- Configured uncrustify additional arguments: 
+[2.435s] -- Added test 'xmllint' to check XML markup files
+[2.437s] -- Configuring done (2.3s)
+[2.503s] -- Generating done (0.1s)
+[2.518s] -- Build files have been written to: /home/tsi/ws_moveit2/build/move_relative_ur
+[2.629s] [  0%] Built target ament_cmake_python_symlink_move_relative_ur
+[2.632s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[2.665s] [  5%] Built target move_relative_ur__cpp
+[2.690s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[2.729s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[2.734s] [ 34%] Built target move_relative_ur__rosidl_typesupport_c
+[2.745s] [ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[2.746s] [ 50%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[2.749s] [ 57%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[2.749s] [ 65%] Built target move_relative_ur__rosidl_typesupport_cpp
+[2.783s] [ 65%] Built target move_relative_ur
+[2.795s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[2.807s] [ 73%] Built target move_relative_node
+[2.825s] [ 76%] Built target move_relative_ur__py
+[2.870s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[2.928s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[2.931s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[2.947s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[3.092s] running egg_info
+[3.144s] writing move_relative_ur.egg-info/PKG-INFO
+[3.144s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[3.144s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[3.276s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[3.277s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[3.343s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[5.555s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[5.556s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_sub_[m[K’ was not declared in this scope
+[5.556s]    34 |         [01;31m[Kjoint_state_sub_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+[5.557s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.595s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KjointStateCallback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.595s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:58:30:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+[5.596s]    58 |         if ([01;31m[KsendMagFlag == 1 && isStopped[m[K = false)
+[5.596s]       |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[8.463s] gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+[8.464s] gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+[8.464s] gmake: *** [Makefile:146: all] Error 2
+[8.471s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

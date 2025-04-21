@@ -1,0 +1,19 @@
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In member function ‘[01m[Kvoid URScriptRelativeMove::[01;32m[KerrorCallback[m[K(move_relative_ur::msg::ErrorMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+   29 |         if ([01;31m[Kerror_msg[m[K == "로봇이 정지 상태에 있음!") {
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kerror_t[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In constructor ‘[01m[KRobotMonitoringNode::[01;32m[KRobotMonitoringNode[m[K()[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:44:28:[m[K [01;31m[Kerror: [m[K‘[01m[KURScriptRelativeMove[m[K’ has not been declared
+   44 |                 std::bind(&[01;31m[KURScriptRelativeMove[m[K::checkIfNodeIsRunning, this)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:[m[K In member function ‘[01m[Kvoid RobotMonitoringNode::[01;32m[KjointStateCallback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_monitoring_node.cpp:76:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<sensor_msgs::msg::JointState_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmessage[m[K’
+   76 |             std::string error_msg = msg->[01;31m[Kmessage[m[K;
+      |                                          [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_monitoring_node.dir/build.make:76: CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/robot_monitoring_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

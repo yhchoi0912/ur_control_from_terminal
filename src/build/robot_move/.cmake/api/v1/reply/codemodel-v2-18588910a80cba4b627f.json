@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d02953cf18371186d86c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "robot_move__py",
+					"jsonFile" : "directory-robot_move__py-6552749d44f64547ac89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tsi/ws_moveit2/src/build/robot_move/robot_move__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_move",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_move_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_move_egg-1d4ef2fc8fc157fe2bef.json",
+					"name" : "ament_cmake_python_build_robot_move_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_move-202850e3239d85734688.json",
+					"name" : "ament_cmake_python_copy_robot_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move-42e7e5b5806b9626b192.json",
+					"name" : "robot_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__cpp-362441b395f18dd58bc9.json",
+					"name" : "robot_move__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_move__py::@c2a3488ac7015a510bc6",
+					"jsonFile" : "target-robot_move__py-25114a1be7012a49c05e.json",
+					"name" : "robot_move__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_generator_c-83256d6087cbbe9ca562.json",
+					"name" : "robot_move__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_generator_py-b08e9afde86955067298.json",
+					"name" : "robot_move__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_generator_type_description-7e6b5ba7d41b5d47f2ae.json",
+					"name" : "robot_move__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_c-100f64c5aff6981b6660.json",
+					"name" : "robot_move__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_cpp-825eda85fd462ee6ef72.json",
+					"name" : "robot_move__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_fastrtps_c-5dd67c7168df37113999.json",
+					"name" : "robot_move__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_fastrtps_cpp-8e7126ffa66123253c72.json",
+					"name" : "robot_move__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_introspection_c-9177770518d5ad3434f8.json",
+					"name" : "robot_move__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move__rosidl_typesupport_introspection_cpp-f03e5641f9eabc629665.json",
+					"name" : "robot_move__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move_s__rosidl_typesupport_c-da2db95964c4b2ac1a5c.json",
+					"name" : "robot_move_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move_s__rosidl_typesupport_fastrtps_c-b72d604ff5d9fe5d049d.json",
+					"name" : "robot_move_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move_s__rosidl_typesupport_introspection_c-9e10ae26f7f69fdc171c.json",
+					"name" : "robot_move_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_move_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_move_uninstall-185760f2b1c4c0514974.json",
+					"name" : "robot_move_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b10f9a8b1be18b70f7e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tsi/ws_moveit2/src/build/robot_move",
+		"source" : "/home/tsi/ws_moveit2/src/robot_move"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

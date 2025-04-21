@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.177s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.214s] [  5%] Built target move_relative_ur__cpp
+[0.215s] [  5%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.225s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.273s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.273s] [ 34%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.273s] [ 42%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.275s] [ 50%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.275s] [ 57%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.275s] [ 65%] Built target move_relative_ur__rosidl_typesupport_c
+[0.343s] [ 71%] Built target robot_monitoring_node
+[0.352s] [ 73%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[0.379s] [ 73%] Built target move_relative_ur
+[0.421s] [ 76%] Built target move_relative_ur__py
+[0.471s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.515s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.516s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.518s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.781s] running egg_info
+[0.828s] writing move_relative_ur.egg-info/PKG-INFO
+[0.828s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.829s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.974s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[1.043s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.336s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In constructor ‘[01m[KURScriptRelativeMove::[01;32m[KURScriptRelativeMove[m[K()[m[K’:
+[3.336s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[KerrorCallback[m[K’ is not a member of ‘[01m[KURScriptRelativeMove[m[K’
+[3.337s]    32 |             std::bind(&URScriptRelativeMove::[01;31m[KerrorCallback[m[K, this, std::placeholders::_1));
+[3.337s]       |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[4.421s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[4.422s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+[4.422s] gmake: *** [Makefile:146: all] Error 2
+[4.426s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

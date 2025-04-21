@@ -1,0 +1,470 @@
+[0.036s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.168s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.180s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.213s] [ 15%] Built target move_relative_ur__rosidl_generator_c
+[0.235s] [ 18%] Built target move_relative_ur__cpp
+[0.262s] [ 26%] Built target move_relative_ur__rosidl_typesupport_c
+[0.263s] [ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.278s] [ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.280s] [ 50%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.282s] [ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.284s] [ 65%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.324s] [ 65%] Built target move_relative_ur
+[0.344s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_monitoring_node.dir/src/move_monitoring_node.cpp.o[0m
+[0.369s] [ 71%] Built target move_relative_ur__py
+[0.387s] [ 73%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[0.410s] [ 78%] Built target move_relative_ur__rosidl_generator_py
+[0.457s] [ 84%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.459s] [ 89%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.462s] [ 94%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.656s] running egg_info
+[0.703s] writing move_relative_ur.egg-info/PKG-INFO
+[0.704s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.704s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.853s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.854s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.922s] [ 94%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.600s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In member function ‘[01m[Kvoid URScriptRelativeMove::[01;32m[KsendRobotStatusRequest[m[K()[m[K’:
+[3.600s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:48:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_status_client_[m[K’ was not declared in this scope
+[3.600s]    48 |         while (![01;31m[Krobot_status_client_[m[K->wait_for_service(std::chrono::seconds(1))) {
+[3.601s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.614s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:53:30:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_status_client_[m[K’ was not declared in this scope
+[3.614s]    53 |         auto future_result = [01;31m[Krobot_status_client_[m[K->async_send_request(request,
+[3.615s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.622s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In member function ‘[01m[Kvoid URScriptRelativeMove::[01;32m[KrobotProgramState[m[K(rclcpp::Client<ur_dashboard_msgs::srv::GetProgramState>::SharedFuture)[m[K’:
+[3.628s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ and ‘[01m[Kconst char [7][m[K’)
+[3.641s]    60 |         if([32m[Kresponse[m[K [01;31m[K==[m[K [34m[K"PAUSED"[m[K)
+[3.644s]       |            [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~[m[K
+[3.644s]       |            [32m[K|[m[K           [34m[K|[m[K
+[3.645s]       |            [32m[K|[m[K           [34m[Kconst char [7][m[K
+[3.646s]       |            [32m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K
+[3.647s] In file included from [01m[K/usr/include/c++/13/memory:65[m[K,
+[3.647s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[3.648s]                  from [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:1[m[K:
+[3.648s] [01m[K/usr/include/c++/13/bits/allocator.h:237:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::[01;32m[Koperator==[m[K(const allocator<_Tp1>&, const allocator<_T2>&)[m[K’
+[3.648s]   237 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[3.648s]       |     [01;36m[K^~~~~~~~[m[K
+[3.648s] [01m[K/usr/include/c++/13/bits/allocator.h:237:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.649s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[3.649s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.649s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.649s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:62[m[K,
+[3.649s]                  from [01m[K/usr/include/c++/13/memory:66[m[K:
+[3.649s] [01m[K/usr/include/c++/13/bits/stl_pair.h:812:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::[01;32m[Koperator==[m[K(const pair<_T1, _T2>&, const pair<_T1, _T2>&)[m[K’
+[3.649s]   812 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[3.649s]       |     [01;36m[K^~~~~~~~[m[K
+[3.650s] [01m[K/usr/include/c++/13/bits/stl_pair.h:812:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.650s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[3.650s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.650s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.650s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:67[m[K,
+[3.650s]                  from [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:63[m[K,
+[3.650s]                  from [01m[K/usr/include/c++/13/memory:69[m[K:
+[3.650s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::[01;32m[Koperator==[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)[m[K’
+[3.651s]   448 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[3.651s]       |     [01;36m[K^~~~~~~~[m[K
+[3.651s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.651s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[3.651s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.651s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.651s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:493:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::[01;32m[Koperator==[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[3.651s]   493 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[3.652s]       |     [01;36m[K^~~~~~~~[m[K
+[3.652s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:493:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.652s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[3.652s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.652s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.652s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::[01;32m[Koperator==[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[3.652s]  1678 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[3.652s]       |     [01;36m[K^~~~~~~~[m[K
+[3.652s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.652s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[3.652s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.652s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.652s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::[01;32m[Koperator==[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)[m[K’
+[3.652s]  1748 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[3.652s]       |     [01;36m[K^~~~~~~~[m[K
+[3.653s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.653s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[3.653s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.653s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.653s] In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:36[m[K,
+[3.653s]                  from [01m[K/usr/include/c++/13/memory:78[m[K:
+[3.653s] [01m[K/usr/include/c++/13/tuple:1919:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::[01;32m[Koperator==[m[K(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)[m[K’
+[3.653s]  1919 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[3.653s]       |     [01;36m[K^~~~~~~~[m[K
+[3.653s] [01m[K/usr/include/c++/13/tuple:1919:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.653s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’
+[3.653s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.653s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:829:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::[01;32m[Koperator==[m[K(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)[m[K’
+[3.653s]   829 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[3.653s]       |     [01;36m[K^~~~~~~~[m[K
+[3.653s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:829:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.654s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[3.654s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.654s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.654s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:837:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::[01;32m[Koperator==[m[K(const unique_ptr<_Tp, _Dp>&, nullptr_t)[m[K’
+[3.654s]   837 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[3.654s]       |     [01;36m[K^~~~~~~~[m[K
+[3.654s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:837:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.654s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[3.654s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.654s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.654s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:845:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const unique_ptr<_Tp, _Dp>&)[m[K’
+[3.654s]   845 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[3.654s]       |     [01;36m[K^~~~~~~~[m[K
+[3.654s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:845:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.655s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.655s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.655s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.655s] In file included from [01m[K/usr/include/c++/13/iosfwd:42[m[K,
+[3.655s]                  from [01m[K/usr/include/c++/13/bits/shared_ptr.h:52[m[K,
+[3.655s]                  from [01m[K/usr/include/c++/13/memory:80[m[K:
+[3.655s] [01m[K/usr/include/c++/13/bits/postypes.h:192:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::[01;32m[Koperator==[m[K(const fpos<_StateT>&, const fpos<_StateT>&)[m[K’
+[3.655s]   192 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[3.655s]       |     [01;36m[K^~~~~~~~[m[K
+[3.656s] [01m[K/usr/include/c++/13/bits/postypes.h:192:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.656s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[3.656s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.656s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.656s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K:
+[3.656s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)[m[K’
+[3.656s]  1793 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[3.656s]       |     [01;36m[K^~~~~~~~[m[K
+[3.656s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.656s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp2, _Lp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.657s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.657s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.657s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(const __shared_ptr<_Tp, _Lp>&, nullptr_t)[m[K’
+[3.657s]  1799 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[3.657s]       |     [01;36m[K^~~~~~~~[m[K
+[3.657s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.657s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"PAUSED"[m[K’ (type ‘[01m[Kconst char [7][m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+[3.657s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.657s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.657s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const __shared_ptr<_Tp, _Lp>&)[m[K’
+[3.658s]  1819 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[3.658s]       |     [01;36m[K^~~~~~~~[m[K
+[3.658s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.658s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.658s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.658s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.658s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:555:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::[01;32m[Koperator==[m[K(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)[m[K’
+[3.658s]   555 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[3.658s]       |     [01;36m[K^~~~~~~~[m[K
+[3.658s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:555:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.659s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.659s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.659s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.659s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:561:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::[01;32m[Koperator==[m[K(const shared_ptr<_Tp>&, nullptr_t)[m[K’
+[3.659s]   561 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[3.659s]       |     [01;36m[K^~~~~~~~[m[K
+[3.659s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:561:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.659s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"PAUSED"[m[K’ (type ‘[01m[Kconst char [7][m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+[3.659s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.659s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.660s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:582:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const shared_ptr<_Tp>&)[m[K’
+[3.660s]   582 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[3.660s]       |     [01;36m[K^~~~~~~~[m[K
+[3.660s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:582:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.660s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.660s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.660s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.660s] In file included from [01m[K/usr/include/c++/13/bits/basic_string.h:47[m[K,
+[3.660s]                  from [01m[K/usr/include/c++/13/string:54[m[K,
+[3.660s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+[3.661s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[3.661s] [01m[K/usr/include/c++/13/string_view:609:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)[m[K’
+[3.661s]   609 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[3.661s]       |     [01;36m[K^~~~~~~~[m[K
+[3.661s] [01m[K/usr/include/c++/13/string_view:609:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.661s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[3.661s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.661s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.661s] [01m[K/usr/include/c++/13/string_view:616:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)[m[K’
+[3.661s]   616 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[3.662s]       |     [01;36m[K^~~~~~~~[m[K
+[3.662s] [01m[K/usr/include/c++/13/string_view:616:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.662s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[3.662s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.662s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.662s] [01m[K/usr/include/c++/13/string_view:642:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)[m[K’
+[3.662s]   642 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[3.662s]       |     [01;36m[K^~~~~~~~[m[K
+[3.662s] [01m[K/usr/include/c++/13/string_view:642:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.663s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kconst char*[m[K’
+[3.663s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.663s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.663s] [01m[K/usr/include/c++/13/bits/basic_string.h:3710:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.663s]  3710 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[3.663s]       |     [01;36m[K^~~~~~~~[m[K
+[3.663s] [01m[K/usr/include/c++/13/bits/basic_string.h:3710:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.663s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[3.663s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.663s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.664s] [01m[K/usr/include/c++/13/bits/basic_string.h:3727:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[3.664s]  3727 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[3.664s]       |     [01;36m[K^~~~~~~~[m[K
+[3.664s] [01m[K/usr/include/c++/13/bits/basic_string.h:3727:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.664s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[3.664s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.664s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.664s] [01m[K/usr/include/c++/13/bits/basic_string.h:3774:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.664s]  3774 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[3.664s]       |     [01;36m[K^~~~~~~~[m[K
+[3.665s] [01m[K/usr/include/c++/13/bits/basic_string.h:3774:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.665s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’
+[3.665s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.665s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.665s] In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+[3.665s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K:
+[3.665s] [01m[K/usr/include/c++/13/bits/stl_vector.h:2040:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)[m[K’
+[3.665s]  2040 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[3.665s]       |     [01;36m[K^~~~~~~~[m[K
+[3.665s] [01m[K/usr/include/c++/13/bits/stl_vector.h:2040:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.666s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[3.666s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.666s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.666s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:12[m[K,
+[3.666s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[3.666s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[3.666s] [01m[K/usr/include/c++/13/array:297:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::[01;32m[Koperator==[m[K(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)[m[K’
+[3.666s]   297 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[3.666s]       |     [01;36m[K^~~~~~~~[m[K
+[3.666s] [01m[K/usr/include/c++/13/array:297:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.667s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[3.667s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.667s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.667s] In file included from [01m[K/usr/include/c++/13/bits/locale_facets.h:48[m[K,
+[3.667s]                  from [01m[K/usr/include/c++/13/bits/basic_ios.h:37[m[K,
+[3.667s]                  from [01m[K/usr/include/c++/13/ios:46[m[K,
+[3.667s]                  from [01m[K/usr/include/c++/13/istream:40[m[K,
+[3.667s]                  from [01m[K/usr/include/c++/13/sstream:40[m[K,
+[3.667s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:13[m[K,
+[3.667s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9[m[K:
+[3.668s] [01m[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::[01;32m[Koperator==[m[K(const istreambuf_iterator<_CharT, _Traits>&, const istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[3.668s]   234 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[3.668s]       |     [01;36m[K^~~~~~~~[m[K
+[3.668s] [01m[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.668s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[3.668s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.668s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.668s] In file included from [01m[K/usr/include/c++/13/functional:59[m[K,
+[3.668s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[3.668s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[3.669s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[3.669s] [01m[K/usr/include/c++/13/bits/std_function.h:737:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::[01;32m[Koperator==[m[K(const function<_Res(_ArgTypes ...)>&, nullptr_t)[m[K’
+[3.669s]   737 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[3.669s]       |     [01;36m[K^~~~~~~~[m[K
+[3.669s] [01m[K/usr/include/c++/13/bits/std_function.h:737:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.669s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[3.669s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.669s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.669s] [01m[K/usr/include/c++/13/bits/std_function.h:744:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::[01;32m[Koperator==[m[K(nullptr_t, const function<_Res(_ArgTypes ...)>&)[m[K’
+[3.670s]   744 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[3.670s]       |     [01;36m[K^~~~~~~~[m[K
+[3.670s] [01m[K/usr/include/c++/13/bits/std_function.h:744:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.670s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.670s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.670s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.670s] In file included from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+[3.670s]                  from [01m[K/usr/include/c++/13/functional:63[m[K:
+[3.670s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[3.670s]  2143 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[3.670s]       |     [01;36m[K^~~~~~~~[m[K
+[3.670s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.670s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[3.670s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.670s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.670s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[3.671s]  2157 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[3.671s]       |     [01;36m[K^~~~~~~~[m[K
+[3.671s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2157:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.671s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[3.671s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.671s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.671s] In file included from [01m[K/usr/include/c++/13/unordered_set:41[m[K,
+[3.671s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[3.671s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[3.671s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[3.671s]  1813 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[3.671s]       |     [01;36m[K^~~~~~~~[m[K
+[3.671s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.671s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[3.671s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.671s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.671s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1827:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[3.671s]  1827 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[3.672s]       |     [01;36m[K^~~~~~~~[m[K
+[3.672s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1827:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.672s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[3.672s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.672s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.672s] In file included from [01m[K/usr/include/c++/13/set:63[m[K,
+[3.672s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[3.672s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.672s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.672s] [01m[K/usr/include/c++/13/bits/stl_set.h:987:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)[m[K’
+[3.672s]   987 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[3.672s]       |     [01;36m[K^~~~~~~~[m[K
+[3.672s] [01m[K/usr/include/c++/13/bits/stl_set.h:987:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.672s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[3.672s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.672s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.672s] In file included from [01m[K/usr/include/c++/13/set:64[m[K:
+[3.672s] [01m[K/usr/include/c++/13/bits/stl_multiset.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)[m[K’
+[3.673s]   973 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[3.673s]       |     [01;36m[K^~~~~~~~[m[K
+[3.673s] [01m[K/usr/include/c++/13/bits/stl_multiset.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.673s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[3.673s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.673s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.673s] In file included from [01m[K/usr/include/c++/13/list:65[m[K,
+[3.673s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[3.673s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K:
+[3.673s] [01m[K/usr/include/c++/13/bits/stl_list.h:2123:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)[m[K’
+[3.673s]  2123 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[3.673s]       |     [01;36m[K^~~~~~~~[m[K
+[3.673s] [01m[K/usr/include/c++/13/bits/stl_list.h:2123:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.673s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[3.673s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.673s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.673s] In file included from [01m[K/usr/include/c++/13/map:63[m[K,
+[3.673s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24[m[K:
+[3.674s] [01m[K/usr/include/c++/13/bits/stl_map.h:1513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[3.674s]  1513 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[3.674s]       |     [01;36m[K^~~~~~~~[m[K
+[3.674s] [01m[K/usr/include/c++/13/bits/stl_map.h:1513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.674s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[3.674s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.674s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.674s] In file included from [01m[K/usr/include/c++/13/map:64[m[K:
+[3.674s] [01m[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[3.674s]  1134 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[3.674s]       |     [01;36m[K^~~~~~~~[m[K
+[3.674s] [01m[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.674s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[3.674s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.674s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.674s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[3.674s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.674s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.675s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.675s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.675s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[3.675s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K:
+[3.675s] [01m[K/usr/include/c++/13/optional:1236:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::[01;32m[Koperator==[m[K(const optional<_Tp>&, const optional<_Up>&)[m[K’
+[3.675s]  1236 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[3.675s]       |     [01;36m[K^~~~~~~~[m[K
+[3.675s] [01m[K/usr/include/c++/13/optional:1236:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.675s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[3.675s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.675s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.675s] [01m[K/usr/include/c++/13/optional:1296:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::[01;32m[Koperator==[m[K(const optional<_Tp>&, nullopt_t)[m[K’
+[3.675s]  1296 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[3.675s]       |     [01;36m[K^~~~~~~~[m[K
+[3.675s] [01m[K/usr/include/c++/13/optional:1296:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.675s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[3.675s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.675s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1307:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::[01;32m[Koperator==[m[K(nullopt_t, const optional<_Tp>&)[m[K’
+[3.676s]  1307 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[3.676s]       |     [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1307:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.676s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.676s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.676s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1364:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::[01;32m[Koperator==[m[K(const optional<_Tp>&, const _Up&)[m[K’
+[3.676s]  1364 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[3.676s]       |     [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1364:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.676s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[3.676s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.676s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1370:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::[01;32m[Koperator==[m[K(const _Up&, const optional<_Tp>&)[m[K’
+[3.676s]  1370 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[3.676s]       |     [01;36m[K^~~~~~~~[m[K
+[3.676s] [01m[K/usr/include/c++/13/optional:1370:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.677s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[3.677s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.677s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.677s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:29[m[K:
+[3.677s] [01m[K/usr/include/c++/13/variant:1266:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::[01;32m[Koperator==[m[K(const variant<_Types ...>&, const variant<_Types ...>&)[m[K’
+[3.677s]  1266 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[3.677s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.677s] [01m[K/usr/include/c++/13/variant:1266:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.677s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[3.677s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.677s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.677s] In file included from [01m[K/usr/include/c++/13/deque:66[m[K,
+[3.677s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:18[m[K,
+[3.677s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39[m[K:
+[3.677s] [01m[K/usr/include/c++/13/bits/stl_deque.h:2290:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)[m[K’
+[3.677s]  2290 |     [01;36m[Koperator[m[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+[3.677s]       |     [01;36m[K^~~~~~~~[m[K
+[3.677s] [01m[K/usr/include/c++/13/bits/stl_deque.h:2290:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.678s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+[3.678s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.678s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.678s] In file included from [01m[K/usr/include/c++/13/queue:66[m[K,
+[3.678s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:18[m[K,
+[3.678s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:27[m[K,
+[3.678s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:24[m[K:
+[3.678s] [01m[K/usr/include/c++/13/bits/stl_queue.h:380:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::[01;32m[Koperator==[m[K(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)[m[K’
+[3.678s]   380 |     [01;36m[Koperator[m[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+[3.678s]       |     [01;36m[K^~~~~~~~[m[K
+[3.678s] [01m[K/usr/include/c++/13/bits/stl_queue.h:380:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.678s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:60:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::queue<_Tp, _Seq>[m[K’
+[3.678s]    60 |         if(response == [01;36m[K"PAUSED"[m[K)
+[3.678s]       |                        [01;36m[K^~~~~~~~[m[K
+[3.678s] In file included from [01m[K/usr/include/c++/13/bits/ios_base.h:46[m[K,
+[3.678s]                  from [01m[K/usr/include/c++/13/ios:44[m[K:
+[3.678s] [01m[K/usr/include/c++/13/system_error:449:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_code&, const error_code&)[m[K’
+[3.679s]   449 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[3.679s]       |   [01;36m[K^~~~~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:449:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[3.679s]   449 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[3.679s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:465:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_code&, const error_condition&)[m[K’
+[3.679s]   465 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[3.679s]       |   [01;36m[K^~~~~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:465:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[3.679s]   465 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[3.679s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:480:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_condition&, const error_condition&)[m[K’
+[3.679s]   480 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[3.679s]       |   [01;36m[K^~~~~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:480:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[3.679s]   480 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[3.679s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.679s] [01m[K/usr/include/c++/13/system_error:517:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_condition&, const error_code&)[m[K’
+[3.680s]   517 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[3.680s]       |   [01;36m[K^~~~~~~~[m[K
+[3.680s] [01m[K/usr/include/c++/13/system_error:517:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[3.680s]   517 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[3.680s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.680s] In file included from [01m[K/usr/include/c++/13/future:51[m[K,
+[3.680s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18[m[K:
+[3.680s] [01m[K/usr/include/c++/13/bits/std_thread.h:324:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(thread::id, thread::id)[m[K’
+[3.680s]   324 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[3.680s]       |   [01;36m[K^~~~~~~~[m[K
+[3.680s] [01m[K/usr/include/c++/13/bits/std_thread.h:324:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::thread::id[m[K’
+[3.680s]   324 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[3.680s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[3.680s] [01m[K/usr/include/c++/13/variant:1273:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::[01;32m[Koperator==[m[K(monostate, monostate)[m[K’
+[3.680s]  1273 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[3.680s]       |                  [01;36m[K^~~~~~~~[m[K
+[3.680s] [01m[K/usr/include/c++/13/variant:1273:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<ur_dashboard_msgs::srv::GetProgramState_Response_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::monostate[m[K’
+[3.680s]  1273 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[3.681s]       |                             [01;36m[K^~~~~~~~~[m[K
+[3.681s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:61:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.681s]    61 |     [01;31m[K}[m[K
+[3.681s]       |     [01;31m[K^[m[K
+[6.425s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[6.425s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+[6.426s] gmake[1]: *** Waiting for unfinished jobs....
+[12.393s] [ 97%] [32m[1mLinking CXX executable robot_monitoring_node[0m
+[13.140s] [ 97%] Built target robot_monitoring_node
+[13.142s] gmake: *** [Makefile:146: all] Error 2
+[13.146s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12

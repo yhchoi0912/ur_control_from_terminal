@@ -1,0 +1,15 @@
+{
+  "package_name": "robot_move",
+  "output_dir": "/home/tsi/ws_moveit2/src/build/robot_move/rosidl_generator_type_description/robot_move",
+  "idl_tuples": [
+    "/home/tsi/ws_moveit2/src/build/robot_move/rosidl_adapter/robot_move:action/Coordinate.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,6 @@
+setup.py
+robot_move/__init__.py
+robot_move.egg-info/PKG-INFO
+robot_move.egg-info/SOURCES.txt
+robot_move.egg-info/dependency_links.txt
+robot_move.egg-info/top_level.txt

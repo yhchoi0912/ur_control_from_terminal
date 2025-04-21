@@ -1,0 +1,80 @@
+[0.029s] Invoking command in '/home/tsi/ws_moveit2/build/move_relative_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
+[0.173s] [  2%] Built target move_relative_ur__rosidl_generator_type_description
+[0.207s] [  2%] Built target ament_cmake_python_symlink_move_relative_ur
+[0.214s] [  5%] Built target move_relative_ur__cpp
+[0.230s] [ 18%] Built target move_relative_ur__rosidl_generator_c
+[0.280s] [ 26%] Built target move_relative_ur__rosidl_typesupport_introspection_c
+[0.280s] [ 34%] Built target move_relative_ur__rosidl_typesupport_introspection_cpp
+[0.281s] [ 42%] Built target move_relative_ur__rosidl_typesupport_fastrtps_cpp
+[0.285s] [ 50%] Built target move_relative_ur__rosidl_typesupport_cpp
+[0.288s] [ 57%] Built target move_relative_ur__rosidl_typesupport_fastrtps_c
+[0.290s] [ 65%] Built target move_relative_ur__rosidl_typesupport_c
+[0.339s] [ 65%] Built target move_relative_ur
+[0.340s] [ 68%] [32mBuilding CXX object CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o[0m
+[0.341s] [ 73%] Built target robot_monitoring_node
+[0.376s] [ 76%] Built target move_relative_ur__py
+[0.436s] [ 81%] Built target move_relative_ur__rosidl_generator_py
+[0.483s] [ 86%] Built target move_relative_ur_s__rosidl_typesupport_introspection_c
+[0.486s] [ 92%] Built target move_relative_ur_s__rosidl_typesupport_c
+[0.487s] [ 97%] Built target move_relative_ur_s__rosidl_typesupport_fastrtps_c
+[0.643s] running egg_info
+[0.693s] writing move_relative_ur.egg-info/PKG-INFO
+[0.694s] writing dependency_links to move_relative_ur.egg-info/dependency_links.txt
+[0.694s] writing top-level names to move_relative_ur.egg-info/top_level.txt
+[0.833s] reading manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.834s] writing manifest file 'move_relative_ur.egg-info/SOURCES.txt'
+[0.901s] [ 97%] Built target ament_cmake_python_build_move_relative_ur_egg
+[3.280s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:154:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.280s]   154 | }
+[3.281s]       |  [01;31m[K^[m[K
+[3.281s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:24:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.281s]    24 | [01;36m[K{[m[K
+[3.282s]       | [01;36m[K^[m[K
+[3.290s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In constructor ‘[01m[KURScriptRelativeMove::[01;32m[KURScriptRelativeMove[m[K()[m[K’:
+[3.290s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.291s]    28 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("/urscript_interface/script_command", 10);
+[3.291s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.291s]       |         [32m[Krmw_publisher_t[m[K
+[3.309s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror_t[m[K’?
+[3.310s]    30 |         [01;31m[Kerror_sub_[m[K = this->create_subscription<move_relative_ur::msg::ErrorMsg>(
+[3.310s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.310s]       |         [32m[Kerror_t[m[K
+[3.311s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[KerrorCallback[m[K’ is not a member of ‘[01m[KURScriptRelativeMove[m[K’
+[3.311s]    32 |             std::bind(&URScriptRelativeMove::[01;31m[KerrorCallback[m[K, this, std::placeholders::_1));
+[3.311s]       |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[3.320s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_thread_[m[K’ was not declared in this scope
+[3.320s]    34 |         [01;31m[Kinput_thread_[m[K = std::thread(&URScriptRelativeMove::inputThreadFunction, this);
+[3.321s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.321s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:34:60:[m[K [01;31m[Kerror: [m[K‘[01m[KinputThreadFunction[m[K’ is not a member of ‘[01m[KURScriptRelativeMove[m[K’
+[3.322s]    34 |         input_thread_ = std::thread(&URScriptRelativeMove::[01;31m[KinputThreadFunction[m[K, this);
+[3.322s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.334s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K In destructor ‘[01m[Kvirtual URScriptRelativeMove::[01;32m[K~URScriptRelativeMove[m[K()[m[K’:
+[3.334s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_thread_[m[K’ was not declared in this scope
+[3.335s]    40 |         if ([01;31m[Kinput_thread_[m[K.joinable()) {
+[3.335s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.337s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:44:78:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.338s]    44 |     void errorCallback(const move_relative_ur::msg::ErrorMsg::SharedPtr msg) [01;31m[K{[m[K
+[3.338s]       |                                                                              [01;31m[K^[m[K
+[3.338s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:57:16:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.338s]    57 |     void run() [01;31m[K{[m[K
+[3.338s]       |                [01;31m[K^[m[K
+[3.338s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:63:32:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.339s]    63 |     void inputThreadFunction() [01;31m[K{[m[K
+[3.339s]       |                                [01;31m[K^[m[K
+[3.339s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:69:26:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.339s]    69 |     void getValidInput() [01;31m[K{[m[K
+[3.339s]       |                          [01;31m[K^[m[K
+[3.339s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:107:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.339s]   107 |     [01;31m[K{[m[K
+[3.339s]       |     [01;31m[K^[m[K
+[3.339s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:129:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[3.340s]   129 | [01;31m[Kprivate[m[K:
+[3.340s]       | [01;31m[K^~~~~~~[m[K
+[3.374s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:[m[K At global scope:
+[3.374s] [01m[K/home/tsi/ws_moveit2/src/move_relative_ur/src/move_relative.cpp:154:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.374s]   154 | }
+[3.374s]       |  [01;31m[K^[m[K
+[4.458s] gmake[2]: *** [CMakeFiles/move_relative_node.dir/build.make:76: CMakeFiles/move_relative_node.dir/src/move_relative.cpp.o] Error 1
+[4.458s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/move_relative_node.dir/all] Error 2
+[4.459s] gmake: *** [Makefile:146: all] Error 2
+[4.464s] Invoked command in '/home/tsi/ws_moveit2/build/move_relative_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/workspace/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsi/ws_moveit2/build/move_relative_ur -- -j12 -l12
